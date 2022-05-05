@@ -1,0 +1,114 @@
+.awards-nominations {
+  display: flex;
+  justify-content: space-between;
+  background: #fcf6e0;
+  border: 2px solid #e3cb85;
+  padding: 106px 0;
+  .awards-nominations__left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+    img {
+      width: 120px;
+      height: 115px;
+      margin-bottom: 5px;
+    }
+    h4 {
+      width: 230px;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 110%;
+      text-align: center;
+      color: #4b0e0e;
+      margin-bottom: 5px;
+    }
+    p {
+      width: 260px;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 155%;
+      text-align: center;
+      color: #4b0e0e;
+      margin-bottom: 5px;
+    }
+    .curl-img {
+      width: 200px;
+      height: 45px;
+    }
+  }
+  .awards-nominations__right-block {
+    width: 50%;
+    h4 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 110%;
+      color: #b11733;
+      margin-bottom: 40px;
+    }
+    h5 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 125%;
+      text-transform: uppercase;
+      color: #4b0e0e;
+      margin-bottom: 20px;
+    }
+    ul {
+      li {
+        list-style: none;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;
+        color: #4b0e0e;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .awards-nominations {
+    flex-direction: column;
+    .awards-nominations__left-block {
+      width: 100%;
+      img {
+      }
+      h4 {
+      }
+      p {
+      }
+      .curl-img {
+      }
+    }
+    .awards-nominations__right-block {
+      width: 100%;
+      h4 {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+      }
+      h5 {
+        width: 100%;
+        text-align: center;
+      }
+      ul {
+        width: 100%;
+        text-align: center;
+        li {
+        }
+      }
+    }
+  }
+}

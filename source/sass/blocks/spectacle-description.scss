@@ -1,0 +1,283 @@
+.spectacle-description {
+  margin-bottom: 120px;
+  .spectacle-description-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .spectacle-description-tabs {
+    margin: 0 0 60px 0;
+
+    .spectacle-description-tabs__buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .spectacle-description-tabs__button {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #e3cb85;
+        width: 50%;
+        height: 50px;
+        border-bottom: 1px solid #e3cb85;
+        cursor: pointer;
+      }
+
+      .spectacle-description-tabs__button.active {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #b11733;
+        border-bottom: 1px solid #b11733;
+      }
+    }
+
+    .spectacle-description-tabs__body {
+      width: 100%;
+      height: auto;
+      .spectacle-description-tabs__item {
+        padding: 20px 0;
+        font-size: 24px;
+        line-height: 48px;
+        display: none;
+
+        .spectacle-description-staging-title {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 60px;
+          margin-bottom: 60px;
+          h2 {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 110%;
+            text-align: center;
+            color: #b11733;
+            width: 840px;
+          }
+        }
+
+        .spectacle-description-staging__top-text {
+          width: 840px;
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 155%;
+          color: #242424;
+          margin: 0 auto;
+          margin-bottom: 70px;
+        }
+        .spectacle-description-staging__performer {
+          width: 960px;
+          height: auto;
+          border: 1px solid #e3cb85;
+          border-radius: 30px;
+          margin: 0 auto;
+          padding: 55px 0 35px 0;
+          position: relative;
+          margin-bottom: 50px;
+          &::before {
+            position: absolute;
+            content: "";
+            top: -50px;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 1;
+            background-image: url(../img/performer-photo.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+          }
+          &::after {
+            position: absolute;
+            content: "";
+            bottom: -33px;
+            left: 50%;
+            transform: translate(-50%);
+            background-image: url(../img/motive.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 400px;
+            height: 30px;
+          }
+          .spectacle-description-staging__performer-title {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 155%;
+            color: #b11733;
+            width: 160px;
+            margin: 0 auto;
+          }
+          .spectacle-description-staging__performer-subtitle {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 155%;
+            color: #4b0e0e;
+            width: 230px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+          }
+          .spectacle-description-staging__performer-text {
+            width: 760px;
+            margin: 0 auto;
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 135%;
+            text-align: center;
+            color: #242424;
+          }
+        }
+        .spectacle-description-staging__bottom-text {
+          width: 840px;
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 155%;
+          color: #242424;
+          margin: 0 auto;
+        }
+      }
+      .spectacle-description-tabs__item.active {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .spectacle-description {
+    .spectacle-description-title {
+    }
+
+    .spectacle-description-tabs {
+      .spectacle-description-tabs__buttons {
+        .spectacle-description-tabs__button {
+        }
+
+        .spectacle-description-tabs__button.active {
+        }
+      }
+
+      .spectacle-description-tabs__body {
+        .spectacle-description-tabs__item {
+          .spectacle-description-staging-title {
+            h2 {
+              font-size: 40px;
+            }
+          }
+
+          .spectacle-description-staging__top-text {
+            width: 100%;
+            text-align: center;
+          }
+          .spectacle-description-staging__performer {
+            width: 90%;
+            padding: 55px 10px 20px 10px;
+            &::before {
+            }
+            &::after {
+            }
+            .spectacle-description-staging__performer-title {
+              width: 100%;
+              text-align: center;
+            }
+            .spectacle-description-staging__performer-subtitle {
+              width: 100%;
+              text-align: center;
+            }
+            .spectacle-description-staging__performer-text {
+              width: 100%;
+              text-align: center;
+            }
+          }
+          .spectacle-description-staging__bottom-text {
+            width: 100%;
+            text-align: center;
+          }
+        }
+        .spectacle-description-tabs__item.active {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .spectacle-description {
+    .spectacle-description-title {
+    }
+
+    .spectacle-description-tabs {
+      .spectacle-description-tabs__buttons {
+        flex-wrap: wrap;
+
+        .spectacle-description-tabs__button {
+          width: 100%;
+          font-size: 14px;
+          margin-bottom: 25px;
+        }
+
+        .spectacle-description-tabs__button.active {
+          font-size: 14px;
+        }
+      }
+
+      .spectacle-description-tabs__body {
+        .spectacle-description-tabs__item {
+          .spectacle-description-staging-title {
+            h2 {
+            }
+            img {
+              display: none;
+            }
+          }
+
+          .spectacle-description-staging__top-text {
+          }
+          .spectacle-description-staging__performer {
+            &::before {
+            }
+            &::after {
+              display: none;
+            }
+            .spectacle-description-staging__performer-title {
+            }
+            .spectacle-description-staging__performer-subtitle {
+            }
+            .spectacle-description-staging__performer-text {
+            }
+          }
+          .spectacle-description-staging__bottom-text {
+          }
+        }
+        .spectacle-description-tabs__item.active {
+        }
+      }
+    }
+  }
+}

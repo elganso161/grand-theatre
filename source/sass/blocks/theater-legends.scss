@@ -1,0 +1,163 @@
+.theater-legends {
+  width: 100%;
+  background-color: #b11733;
+  padding-bottom: 120px;
+  .theater-legends__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    margin-bottom: 60px;
+    h2 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  .theater-legends__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .theater-legends__list-item {
+      list-style: none;
+      .theater-legends__list-item-img {
+        border-radius: 17px;
+        background-color: #b11733;
+        margin-bottom: 15px;
+        cursor: pointer;
+      }
+      h4 {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 115%;
+        color: #e3cb85;
+        margin-bottom: 5px;
+      }
+      p {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .theater-legends {
+    .theater-legends__title {
+      h2 {
+      }
+    }
+    .theater-legends__list {
+      width: 680px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      // gap: 40px;
+      .theater-legends__list-item {
+        margin-bottom: 40px;
+        .theater-legends__list-item-img {
+        }
+        h4 {
+        }
+        p {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .theater-legends {
+    .theater-legends__title {
+      padding-top: 60px;
+
+      h2 {
+        font-size: 30px;
+      }
+    }
+    .theater-legends__list {
+      .theater-legends__list-item {
+        .theater-legends__list-item-img {
+        }
+        h4 {
+        }
+        p {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .theater-legends {
+    .theater-legends__title {
+      h2 {
+      }
+    }
+    .theater-legends__list {
+      width: 100%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      // gap: 40px;
+      .theater-legends__list-item {
+        margin: 0 auto;
+        .theater-legends__list-item-img {
+        }
+        h4 {
+        }
+        p {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .theater-legends {
+    .theater-legends__title {
+      text-align: center;
+      img {
+        display: none;
+      }
+      h2 {
+        width: 100%;
+        text-align: center;
+        display: block;
+      }
+    }
+    .theater-legends__list {
+      width: 100%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      // gap: 40px;
+      .theater-legends__list-item {
+        // margin: 0 auto;
+        margin: 0;
+        width: 50%;
+        margin-bottom: 20px;
+        .theater-legends__list-item-img {
+          width: 150px;
+
+        }
+        h4 {
+          font-size: 14px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

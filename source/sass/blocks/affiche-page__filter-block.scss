@@ -1,0 +1,441 @@
+.affiche-page__filter-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 10px;
+  .affiche-page__filter-block-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    .affiche-page-select {
+      margin: 0 auto;
+      position: relative;
+      width: 150px;
+    }
+    .affiche-page-select:hover .affiche-page-select__body {
+      display: block;
+    }
+
+    .affiche-page-select__header {
+      border: none;
+      width: 100px;
+      cursor: pointer;
+      display: flex;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 125%;
+      text-transform: uppercase;
+      color: #4b0e0e;
+    }
+
+    .affiche-page-select__current {
+      font-size: 18px;
+      line-height: 24px;
+      padding: 8px;
+    }
+
+    .affiche-page-select__icon {
+      align-items: center;
+      display: flex;
+      flex-shrink: 0;
+      justify-content: center;
+      height: 40px;
+      margin-left: auto;
+      text-align: center;
+      width: 40px;
+    }
+
+    .affiche-page-select__body {
+      border-top: 0;
+      display: none;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 100%;
+      z-index: 1;
+      width: 200px;
+      height: auto;
+      background: #ffffff;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+
+      .affiche-page-select__item {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 125%;
+        color: #4b0e0e;
+        height: 50px;
+        width: 100%;
+        padding: 12px 12px;
+        input {
+          cursor: pointer;
+        }
+        label {
+          cursor: pointer;
+        }
+        .affiche-checkbox-label {
+          display: flex;
+          align-items: center;
+          .affiche-checkbox {
+            display: none;
+          }
+          .custom-checkbox {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #e3cb85;
+            border-radius: 2px;
+            position: relative;
+
+            &:before {
+              position: absolute;
+              content: "";
+              display: block;
+              width: 8px;
+              height: 4px;
+              background-image: url(../img/arrow-select.svg);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              opacity: 0;
+              transition: 0.2s;
+              svg {
+                path {
+                  fill: rgba(177, 23, 51, 1);
+                }
+              }
+            }
+          }
+
+          .custom-checkbox-text {
+            margin-left: 14px;
+          }
+
+          .affiche-checkbox:checked + .custom-checkbox:before {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .affiche-page-select-checkbox {
+      .affiche-checkbox-label {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        .affiche-checkbox {
+          display: none;
+        }
+        .custom-checkbox {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          border: 1px solid #b11733;
+          border-radius: 2px;
+          position: relative;
+
+          &:before {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 8px;
+            height: 4px;
+            background-image: url(../img/arrow-select.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: 0.2s;
+            svg {
+              path {
+                fill: rgba(177, 23, 51, 1);
+              }
+            }
+          }
+        }
+
+        .custom-checkbox-text {
+          margin-left: 14px;
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 125%;
+          text-transform: uppercase;
+          color: #4b0e0e;
+        }
+
+        .affiche-checkbox:checked + .custom-checkbox:before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .affiche-page__filter-block-rigth {
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 13px;
+      left: 0;
+      z-index: 1;
+      width: 18px;
+      height: 27px;
+      background-image: url(../img/glass.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    input {
+      border: none;
+      width: 360px;
+      height: 50px;
+      border-bottom: 1px solid #e3cb85;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      padding: 13px 40px;
+      outline: none;
+
+      &::placeholder {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        color: rgba(36, 36, 36, 0.4);
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .affiche-page__filter-block {
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    .affiche-page__filter-block-left {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      width: 100%;
+      .affiche-page-select {
+        margin: 0;
+        position: relative;
+        width: 150px;
+      }
+      .affiche-page-select:hover .affiche-page-select__body {
+        display: block;
+      }
+
+      .affiche-page-select__header {
+      }
+
+      .affiche-page-select__current {
+      }
+
+      .affiche-page-select__icon {
+      }
+
+      .affiche-page-select__body {
+        border-top: 0;
+        display: none;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        z-index: 1;
+        width: 200px;
+        height: auto;
+        background: #ffffff;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+
+        .affiche-page-select__item {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 125%;
+          color: #4b0e0e;
+          height: 50px;
+          width: 100%;
+          padding: 12px 12px;
+          input {
+            cursor: pointer;
+          }
+          label {
+            cursor: pointer;
+          }
+          .affiche-checkbox-label {
+            display: flex;
+            align-items: center;
+            .affiche-checkbox {
+              display: none;
+            }
+            .custom-checkbox {
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              border: 1px solid #e3cb85;
+              border-radius: 2px;
+              position: relative;
+
+              &:before {
+                position: absolute;
+                content: "";
+                display: block;
+                width: 8px;
+                height: 4px;
+                background-image: url(../img/arrow-select.svg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0;
+                transition: 0.2s;
+                svg {
+                  path {
+                    fill: rgba(177, 23, 51, 1);
+                  }
+                }
+              }
+            }
+
+            .custom-checkbox-text {
+              margin-left: 14px;
+            }
+
+            .affiche-checkbox:checked + .custom-checkbox:before {
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      .affiche-page-select-checkbox {
+        .affiche-checkbox-label {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          .affiche-checkbox {
+            display: none;
+          }
+          .custom-checkbox {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #b11733;
+            border-radius: 2px;
+            position: relative;
+
+            &:before {
+              position: absolute;
+              content: "";
+              display: block;
+              width: 8px;
+              height: 4px;
+              background-image: url(../img/arrow-select.svg);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              opacity: 0;
+              transition: 0.2s;
+              svg {
+                path {
+                  fill: rgba(177, 23, 51, 1);
+                }
+              }
+            }
+          }
+
+          .custom-checkbox-text {
+            margin-left: 14px;
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 125%;
+            text-transform: uppercase;
+            color: #4b0e0e;
+          }
+
+          .affiche-checkbox:checked + .custom-checkbox:before {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .affiche-page__filter-block-rigth {
+      position: relative;
+      width: 100%;
+      &::before {
+        position: absolute;
+        content: "";
+        top: 13px;
+        left: 0;
+        z-index: 0;
+        width: 18px;
+        height: 27px;
+        background-image: url(../img/glass.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      input {
+        border: none;
+        width: 360px;
+        height: 50px;
+        border-bottom: 1px solid #e3cb85;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        padding: 13px 40px;
+        outline: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .affiche-page__filter-block {
+    .affiche-page__filter-block-left {
+      .affiche-page-select {
+        .affiche-page-select__header {
+          .affiche-page-select__current {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .affiche-page__filter-block
+    .affiche-page__filter-block-left
+    .affiche-page-select-checkbox
+    .affiche-checkbox-label
+    .custom-checkbox-text {
+    font-size: 14px;
+  }
+}

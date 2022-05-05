@@ -1,0 +1,26 @@
+.button-up {
+  position: fixed;
+  transition: 0.2s;
+  right: 30px;
+  bottom: 30px;
+  z-index: 100;
+  background-image: url(../img/button-up.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 58px;
+  height: 58px;
+  display: none;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.button-up-show {
+  display: block;
+}
+@media (max-width: 960px) {
+  .button-up-show {
+    display: none;
+  }
+}

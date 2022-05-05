@@ -1,0 +1,133 @@
+.about-theatre {
+  width: 100%;
+  background-color: #fcf6e0;
+  .about-theatre-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    h2 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 110%;
+      text-align: center;
+      color: #b11733;
+      width: 840px;
+    }
+  }
+  .about-theatre-text {
+    padding-bottom: 80px;
+    ul {
+      width: 840px;
+      margin: 0 auto;
+      li {
+        list-style: none;
+        margin-bottom: 10px;
+        p {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 155%;
+          color: #242424;
+        }
+      }
+    }
+  }
+  // .motive {
+  //   width: 100%;
+  //   height: 3px;
+  //   background-color: rgba(227, 203, 133, 1);
+  //   position: relative;
+
+  //   .motive-wrapper {
+  //     position: absolute;
+  //     top: 4px;
+  //     left: 0;
+  //     bottom: 0;
+  //     right: 0;
+  //     z-index: 100;
+  //     display: flex;
+  //     justify-content: space-between;
+  //     width: 1360px;
+  //     margin: auto;
+  //     position: absolute;
+  //   }
+  // }
+  // .motive-top {
+  //   transform: rotate(180deg);
+  //   width: 100%;
+  //   height: 3px;
+  //   background-color: rgba(227, 203, 133, 1);
+  //   position: relative;
+
+  //   .motive-wrapper {
+  //     position: absolute;
+  //     top: 4px;
+  //     left: 0;
+  //     bottom: 0;
+  //     right: 0;
+  //     z-index: 100;
+  //     display: flex;
+  //     justify-content: space-between;
+  //     width: 1360px;
+  //     margin: auto;
+  //     position: absolute;
+  //   }
+  // }
+}
+
+@media (max-width: 1180px) {
+  .about-theatre {
+    .motive {
+      z-index: 1;
+    }
+    .about-theatre-title {
+      h2 {
+        font-size: 30px;
+      }
+    }
+    .about-theatre-text {
+      width: 100%;
+      ul {
+        width: 100%;
+        li {
+          p {
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 621px) {
+  .about-theatre {
+    .motive {
+      z-index: 100;
+    }
+    .about-theatre-title {
+      img {
+        display: none;
+      }
+      h2 {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+      }
+    }
+    .about-theatre-text {
+      width: 100%;
+      ul {
+        width: 100%;
+        li {
+          p {
+          }
+        }
+      }
+    }
+  }
+}

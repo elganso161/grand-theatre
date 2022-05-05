@@ -1,0 +1,33 @@
+.payments {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image: url(../img/payments-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 120px;
+  h2 {
+    width: 1160px;
+    margin: 0 auto;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+    // padding-top: 320px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 960px) {
+  .payments {
+    h2 {
+      width: 100%;
+      font-size: 40px;
+    }
+  }
+}

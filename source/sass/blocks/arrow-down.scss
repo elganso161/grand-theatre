@@ -1,0 +1,31 @@
+.arrow-down {
+  position: absolute;
+  top: calc(100vh - 150px);
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+  animation: around 5s linear infinite;
+  opacity: 0.6;
+  transition: 0.2s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@keyframes around {
+  0% {
+    top: calc(100vh - 150px);
+  }
+  50% {
+    top: calc(100vh - 120px);
+  }
+  100% {
+    top: calc(100vh - 150px);
+  }
+}
+
+@media (max-width: 1180px) {
+  .arrow-down {
+    display: none;
+  }
+}

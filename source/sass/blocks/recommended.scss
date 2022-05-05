@@ -1,0 +1,233 @@
+.recommended {
+  .recommended__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    margin-bottom: 60px;
+    h2 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #b11733;
+    }
+  }
+
+  .recommended__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // row-gap: 40px;
+    margin-bottom: 80px;
+    .recommended__list-item {
+      margin-bottom: 40px;
+      list-style: none;
+      width: 560px;
+      height: 360px;
+      border-radius: 15px;
+      background-image: url(../img/recommended-img/recommended-img1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 30px 40px;
+      position: relative;
+      overflow: hidden;
+      opacity: 0;
+      transition: 1s;
+      top: 100px;
+
+      .recommended__list-item-link {
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        .recommended__list-item-link-title {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 25px;
+          line-height: 125%;
+          text-transform: uppercase;
+          color: #e3cb85;
+          margin-bottom: 160px;
+        }
+        .recommended__list-item-link-text {
+          width: 480px;
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 155%;
+          color: #ffffff;
+          border-bottom: 2px solid #e3cb85;
+          padding-bottom: 10px;
+          margin-bottom: 20px;
+          position: absolute;
+          top: 450px;
+          transition: 0.5s;
+        }
+      }
+      .recommended__list-item-link-button {
+        text-decoration: none;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        color: #e3cb85;
+        position: relative;
+        bottom: -50px;
+        transition: 0.5s;
+        &::before {
+          position: absolute;
+          content: "";
+          top: 7px;
+          left: 88px;
+          z-index: 1;
+          background-image: url(../img/arrow.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 18px;
+          height: 7px;
+        }
+      }
+
+      &:hover .recommended__list-item-link-text {
+        top: 230px;
+      }
+      &:hover .recommended__list-item-link-button {
+        bottom: 20px;
+      }
+    }
+
+    .recommended__list-item._active {
+      opacity: 1;
+      top: 0;
+    }
+  }
+
+  .recommended-curls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .recommended {
+    .recommended__title {
+      h2 {
+      }
+    }
+
+    .recommended__list {
+      .recommended__list-item {
+        margin: 0 auto;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .recommended {
+    .recommended__title {
+      padding-top: 60px;
+      h2 {
+        font-size: 30px;
+      }
+    }
+
+    .recommended__list {
+      .recommended__list-item {
+        .recommended__list-item-link {
+          .recommended__list-item-link-title {
+            margin-bottom: 10px;
+          }
+          .recommended__list-item-link-text {
+            top: 230px;
+            width: 100%;
+          }
+        }
+        .recommended__list-item-link-button {
+          bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .recommended {
+    .recommended-curls {
+      display: none;
+    }
+    .recommended__title {
+      img {
+        display: none;
+      }
+      h2 {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .recommended__list {
+      .recommended__list-item {
+        .recommended__list-item-link {
+          height: auto;
+          .recommended__list-item-link-text {
+            position: relative;
+            top: 0;
+          }
+        }
+        .recommended__list-item-link-button {
+          position: relative;
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .recommended {
+    .recommended-curls {
+      display: none;
+    }
+    .recommended__title {
+      img {
+        display: none;
+      }
+      h2 {
+        width: 100%;
+        text-align: center;
+        display: block;
+      }
+    }
+
+    .recommended__list {
+      .recommended__list-item {
+        .recommended__list-item-link {
+          height: auto;
+          .recommended__list-item-link-text {
+            position: relative;
+            top: 0;
+          }
+        }
+        .recommended__list-item-link-button {
+          position: relative;
+          top: 0;
+        }
+      }
+    }
+  }
+}

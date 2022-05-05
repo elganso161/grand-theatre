@@ -1,0 +1,123 @@
+.yandex-map {
+  position: relative;
+  .yandex-map__contacts {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    width: 440px;
+    height: 250px;
+    background: #fcf6e0;
+    border-radius: 15px;
+    margin-left: 10%;
+    transform: translateY(-50%);
+    padding: 50px 40px;
+    h4 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 125%;
+      text-transform: uppercase;
+      color: #4b0e0e;
+      margin-bottom: 20px;
+    }
+    h5 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 155%;
+      color: #4b0e0e;
+      margin-bottom: 15px;
+    }
+    .yandex-map__contacts-line {
+      width: 260px;
+      height: 1px;
+      background-color: #b11733;
+      margin-bottom: 15px;
+    }
+    p {
+      width: 340px;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 155%;
+      color: #4b0e0e;
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .yandex-map {
+    .yandex-map__contacts {
+      margin-left: 10%;
+      h4 {
+      }
+      h5 {
+      }
+      .yandex-map__contacts-line {
+      }
+      p {
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .yandex-map {
+    margin-top: 300px;
+    .yandex-map__contacts {
+      top: -150px;
+      left: 0;
+      margin-left: 0;
+      width: 100%;
+      border-radius: 0;
+      background-color: inherit;
+      h4 {
+        width: 100%;
+        text-align: center;
+      }
+      h5 {
+        width: 100%;
+        text-align: center;
+      }
+      .yandex-map__contacts-line {
+        width: 100%;
+      }
+      p {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .yandex-map {
+    .yandex-map__contacts {
+      top: -150px;
+      left: 0;
+      margin-left: 0;
+      width: 100%;
+      border-radius: 0;
+      background-color: inherit;
+      h4 {
+        width: 100%;
+        text-align: center;
+      }
+      h5 {
+        width: 100%;
+        text-align: center;
+      }
+      .yandex-map__contacts-line {
+        width: 100%;
+      }
+      p {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}

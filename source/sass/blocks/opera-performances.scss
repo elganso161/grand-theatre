@@ -1,0 +1,348 @@
+.opera-performances {
+  margin-bottom: 120px;
+  .opera-performances-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    h2 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #b11733;
+    }
+  }
+
+  .opera-performances-tabs {
+    margin: 0 0 60px 0;
+
+    .opera-performances-tabs__buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .opera-performances-tabs__button {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #e3cb85;
+        width: 33.333%;
+        height: 50px;
+        border-bottom: 1px solid #e3cb85;
+        cursor: pointer;
+      }
+
+      .opera-performances-tabs__button.active {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #b11733;
+        border-bottom: 1px solid #b11733;
+      }
+    }
+
+    .opera-performances-tabs__body {
+      width: 100%;
+      height: auto;
+      .opera-performances-tabs__item {
+        padding: 20px 0;
+        font-size: 24px;
+        line-height: 48px;
+        display: none;
+        position: relative;
+        .opera-historical-scene__list {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          // row-gap: 25px;
+          .opera-historical-scene__list-item {
+            list-style: none;
+            width: 270px;
+            height: 320px;
+            border-radius: 15px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 25px;
+            position: relative;
+            margin-bottom: 25px;
+            .opera-historical-scene__list-title {
+              width: 220px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 125%;
+              color: #ffffff;
+              border-bottom: 2px solid #e3cb85;
+              padding-bottom: 10px;
+              margin-bottom: 10px;
+            }
+            .opera-historical-scene__list-subtitle {
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 155%;
+              color: #ffffff;
+            }
+            .opera-historical-scene__list-link {
+              text-decoration: none;
+              position: absolute;
+              bottom: 25px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: #e3cb85;
+            }
+            opacity: 0;
+            top: 100px;
+            transition: 1s;
+          }
+          .opera-historical-scene__list-item._active {
+            opacity: 1;
+            top: 0;
+          }
+        }
+        // new
+        .opera-new-scene__list {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          // row-gap: 25px;
+          .opera-new-scene__list-item {
+            list-style: none;
+            width: 270px;
+            height: 320px;
+            border-radius: 15px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 25px;
+            position: relative;
+            margin-bottom: 25px;
+            .opera-new-scene__list-title {
+              width: 220px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 125%;
+              color: #ffffff;
+              border-bottom: 2px solid #e3cb85;
+              padding-bottom: 10px;
+              margin-bottom: 10px;
+            }
+            .opera-new-scene__list-subtitle {
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 155%;
+              color: #ffffff;
+            }
+            .opera-new-scene__list-link {
+              text-decoration: none;
+              position: absolute;
+              bottom: 25px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: #e3cb85;
+            }
+          }
+        }
+        // chamber-stage
+        .opera-chamber-stage-scene__list {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          // row-gap: 25px;
+          .opera-chamber-stage-scene__list-item {
+            list-style: none;
+            width: 270px;
+            height: 320px;
+            border-radius: 15px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 25px;
+            position: relative;
+            margin-bottom: 25px;
+            .opera-chamber-stage-scene__list-title {
+              width: 220px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 125%;
+              color: #ffffff;
+              border-bottom: 2px solid #e3cb85;
+              padding-bottom: 10px;
+              margin-bottom: 10px;
+            }
+            .opera-chamber-stage-scene__list-subtitle {
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 155%;
+              color: #ffffff;
+            }
+            .opera-chamber-stage-scene__list-link {
+              text-decoration: none;
+              position: absolute;
+              bottom: 25px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: #e3cb85;
+            }
+          }
+        }
+      }
+      .opera-performances-tabs__item.active {
+        display: block;
+        animation: identifier 0.5s linear;
+      }
+      @keyframes identifier {
+        0% {
+          top: 0;
+          opacity: 0.7;
+        }
+        50% {
+          opacity: 0.8;
+          top: 10px;
+        }
+        100% {
+          top: 0;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .opera-performances {
+    margin-top: 60px;
+    .opera-performances-title {
+      margin-bottom: 60px;
+      h2 {
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .opera-performances {
+    .opera-performances-title {
+      h2 {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .opera-performances {
+    margin-top: 0;
+    margin-bottom: 40px;
+    .opera-performances-title {
+      h2 {
+        width: 100%;
+        text-align: center;
+        display: block;
+      }
+      img {
+        display: none;
+      }
+    }
+    .opera-performances-tabs {
+      .opera-performances-tabs__buttons {
+        flex-wrap: wrap;
+        .opera-performances-tabs__button {
+          width: 100%;
+          font-size: 14px;
+          margin-bottom: 25px;
+        }
+
+        .opera-performances-tabs__button.active {
+          font-size: 14px;
+        }
+      }
+
+      .opera-performances-tabs__body {
+        .opera-performances-tabs__item {
+          .opera-historical-scene__list {
+            width: 100%;
+            .opera-historical-scene__list-item {
+              width: 100%;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              .opera-historical-scene__list-title {
+              }
+              .opera-historical-scene__list-subtitle {
+              }
+              .opera-historical-scene__list-link {
+              }
+            }
+            .opera-historical-scene__list-item._active {
+            }
+          }
+          // new
+          .opera-new-scene__list {
+            width: 100%;
+            .opera-new-scene__list-item {
+              width: 100%;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              .opera-new-scene__list-title {
+              }
+              .opera-new-scene__list-subtitle {
+              }
+              .opera-new-scene__list-link {
+              }
+            }
+          }
+          // opera-chamber-stage-scene
+          .opera-chamber-stage-scene__list {
+            width: 100%;
+            .opera-chamber-stage-scene__list-item {
+              width: 100%;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              .opera-chamber-stage-scene__list-title {
+              }
+              .opera-chamber-stage-scene__list-subtitle {
+              }
+              .opera-chamber-stage-scene__list-link {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

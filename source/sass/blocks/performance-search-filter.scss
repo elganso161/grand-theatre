@@ -1,0 +1,85 @@
+.performance-search-filter {
+  width: 860px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: 40px;
+    z-index: 1;
+    width: 18px;
+    height: 27px;
+    background-image: url(../img/glass.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+      width: 600px;
+      height: 60px;
+      border: 2px solid #e3cb85;
+      border-radius: 30px;
+      padding: 22px 70px;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+
+      &::placeholder {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        color: rgba(36, 36, 36, 0.4);
+      }
+    }
+    button {
+      width: 252px;
+      height: 60px;
+      background: #e3cb85;
+      border-radius: 30px;
+      border: none;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      color: #4b0e0e;
+      padding: 18px 45px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .performance-search-filter {
+    width: 100%;
+    &::before {
+      display: none;
+    }
+    form {
+      margin: 0 auto;
+      width: 90%;
+      flex-wrap: wrap;
+      input {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        &::placeholder {
+        }
+      }
+      button {
+        margin: 0 auto;
+        width: 100%;
+      }
+    }
+  }
+}

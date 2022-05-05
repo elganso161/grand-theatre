@@ -1,0 +1,41 @@
+.repertoire-page__main-bg {
+  width: 100%;
+  height: calc(100vh - 160px);
+  background-image: url(../img/repertoire-main-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  h2 {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+    // padding-top: 320px;
+    margin-bottom: 40px;
+  }
+  h3 {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 115%;
+    text-align: center;
+    color: #e3cb85;
+  }
+}
+
+@media (max-width: 960px) {
+  .repertoire-page__main-bg {
+    h2 {
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+}

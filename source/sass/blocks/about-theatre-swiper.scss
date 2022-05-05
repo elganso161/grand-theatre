@@ -1,0 +1,112 @@
+.about-theatre-swiper {
+  margin-top: 120px;
+  margin-bottom: 80px;
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .aboutTheatreSwiper2 {
+    width: 100%;
+    height: 500px;
+    .swiper-slide {
+      position: relative;
+      &::before {
+        position: absolute;
+        content: "";
+        top: 43px;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 1;
+        background-image: url(../img/swiper-glass.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 32px;
+        height: 45px;
+        opacity: 0;
+        transition: 0.2s;
+      }
+      &:hover::before {
+        opacity: 1;
+      }
+    }
+    .swiper-slide img {
+      border-radius: 15px;
+    }
+  }
+
+  .aboutTheatreSwiper {
+    width: 950px;
+    height: 100px;
+    padding: 10px 0;
+    .swiper-slide img {
+      border-radius: 3px;
+    }
+  }
+
+  .aboutTheatreSwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .aboutTheatreSwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1180px) {
+  .about-theatre-swiper {
+    .aboutTheatreSwiper {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .about-theatre-swiper {
+    .aboutTheatreSwiper2 {
+      width: 90%;
+    }
+  }
+}

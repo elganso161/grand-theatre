@@ -1,0 +1,68 @@
+.privacy-policy-page {
+  .privacy-policy-page__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    margin-bottom: 60px;
+    h2 {
+      width: 840px;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #b11733;
+    }
+  }
+  p {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 960px) {
+  .privacy-policy-page {
+    .privacy-policy-page__title {
+      h2 {
+        font-size: 40px;
+      }
+    }
+    p {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 621px) {
+  .privacy-policy-page {
+    .privacy-policy-page__title {
+      padding-top: 20px;
+      margin-bottom: 20px;
+      h2 {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+      }
+      img {
+        display: none;
+      }
+    }
+    p {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

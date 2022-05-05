@@ -1,0 +1,273 @@
+.repertoire-page__season-premieres {
+  margin-bottom: 120px;
+
+  .repertoire-page__season-premieres-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    h2 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #b11733;
+    }
+  }
+
+  .repertoire-page__season-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    .left-block-list {
+      display: flex;
+      flex-direction: column;
+      // row-gap: 20px;
+      .left-block-list__item {
+        margin-bottom: 20px;
+        list-style: none;
+        width: 560px;
+        height: 350px;
+        border-radius: 15px;
+        position: relative;
+        padding: 30px 40px 0 30px;
+        .left-block-list__item-title {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 25px;
+          line-height: 125%;
+          text-transform: uppercase;
+          color: #e3cb85;
+          width: 480px;
+        }
+        .left-block-list__item-text {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 155%;
+          color: #ffffff;
+          position: absolute;
+          bottom: 66px;
+          width: 480px;
+        }
+        .left-block-list__item-link {
+          text-decoration: none;
+          position: absolute;
+          bottom: 30px;
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 100%;
+          color: #e3cb85;
+        }
+        position: relative;
+        top: 100px;
+        opacity: 0;
+        transition: 1s;
+      }
+      .left-block-list__item._active {
+        top: 0;
+        opacity: 1;
+      }
+
+      .item-one {
+        background-image: url(../img/season-img1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .item-two {
+        background-image: url(../img/season-img2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .item-three {
+        background-image: url(../img/season-img3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    .right-block-list {
+      display: flex;
+      flex-direction: column;
+      // row-gap: 20px;
+      .right-block-list__item {
+        margin-bottom: 20px;
+        list-style: none;
+        width: 560px;
+        height: 350px;
+        border-radius: 15px;
+        position: relative;
+        padding: 30px 40px 0 30px;
+        .right-block-list__item-title {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 25px;
+          line-height: 125%;
+          text-transform: uppercase;
+          color: #e3cb85;
+          width: 480px;
+        }
+        .right-block-list__item-text {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 155%;
+          color: #ffffff;
+          position: absolute;
+          bottom: 66px;
+          width: 480px;
+        }
+        .right-block-list__item-link {
+          text-decoration: none;
+          position: absolute;
+          bottom: 30px;
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 100%;
+          color: #e3cb85;
+        }
+        top: 100px;
+        opacity: 0;
+        transition: 1s;
+      }
+
+      .right-block-list__item._active {
+        top: 0;
+        opacity: 1;
+      }
+      .item-one {
+        background-image: url(../img/season-img4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .item-two {
+        background-image: url(../img/season-img5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 720px;
+      }
+    }
+  }
+
+  .repertoire-page__season-premieres-curls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .repertoire-page__season-premieres {
+    margin-top: 60px;
+    .repertoire-page__season-premieres-title {
+      margin-bottom: 60px;
+      h2 {
+      }
+    }
+    .repertoire-page__season-block {
+      flex-wrap: wrap;
+      .left-block-list {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        li {
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+      .right-block-list {
+        width: 100%;
+        margin: 0 auto;
+        li {
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .repertoire-page__season-premieres {
+    .repertoire-page__season-premieres-title {
+      h2 {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .repertoire-page__season-premieres {
+    .repertoire-page__season-premieres-title {
+      h2 {
+        width: 100%;
+        text-align: center;
+        display: block;
+      }
+      img {
+        display: none;
+      }
+    }
+    .repertoire-page__season-block {
+      flex-wrap: wrap;
+      width: 100%;
+      .left-block-list {
+        width: 100%;
+        margin: 0 auto;
+        .left-block-list__item {
+          width: 100%;
+          margin: 0 auto;
+          margin-bottom: 20px;
+          .left-block-list__item-title {
+            width: 100%;
+          }
+          .left-block-list__item-text {
+            width: 90%;
+          }
+          .left-block-list__item-link {
+          }
+        }
+      }
+      .right-block-list {
+        width: 100%;
+        margin: 0 auto;
+
+        .right-block-list__item {
+          width: 100%;
+          margin: 0 auto;
+          margin-bottom: 20px;
+          .right-block-list__item-title {
+            width: 100%;
+          }
+          .right-block-list__item-text {
+            width: 90%;
+          }
+          .right-block-list__item-link {
+          }
+        }
+      }
+    }
+    .repertoire-page__season-premieres-curls {
+      display: none;
+    }
+  }
+}

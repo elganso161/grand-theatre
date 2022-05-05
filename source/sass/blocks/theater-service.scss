@@ -1,0 +1,375 @@
+.theater-service {
+  background: url(../img/theater-service-bg.jpg);
+  height: 845px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
+  .theater-service__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    margin-bottom: 60px;
+    h2 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+    }
+    transition: 1s;
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  .theater-service__title._active {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+
+  .theater-service__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // row-gap: 100px;
+    .theater-service__list-item {
+      margin-bottom: 100px;
+      list-style: none;
+      width: 340px;
+      h4 {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 125%;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 35px;
+        width: 250px;
+      }
+      span {
+        display: block;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-left: -35px;
+        margin-bottom: 18px;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 10px;
+          left: 35px;
+          z-index: 1;
+          width: 100px;
+          height: 2px;
+          background-color: #e3cb85;
+        }
+        &::after {
+          position: absolute;
+          content: "";
+          top: 4px;
+          left: 145px;
+          z-index: 1;
+          background-image: url(../img/theater-service-motive-img.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 15px;
+          height: 15px;
+        }
+      }
+      p {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;
+        color: #ffffff;
+        width: 280px;
+      }
+
+      .theater-service__list-item-attention {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;
+        color: #e3cb85;
+        margin-top: 123px;
+        margin-bottom: 15px;
+      }
+      .theater-service__list-item-attention-text {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 155%;
+        color: #ffffff;
+      }
+      // transition: 1s;
+      // opacity: 0;
+      // left: -500px;
+      // position: relative;
+    }
+    // .theater-service__list-item._active{
+    //  left: 0;
+    //   opacity: 1;
+    // }
+    .ts1 {
+      transition: 1s;
+      opacity: 0;
+      left: -500px;
+      position: relative;
+    }
+    .ts1._active {
+      left: 0;
+      opacity: 1;
+    }
+    .ts2 {
+      transition: 1s;
+      opacity: 0;
+      left: -900px;
+      position: relative;
+    }
+    .ts2._active {
+      left: 0;
+      opacity: 1;
+    }
+    .ts3 {
+      transition: 1s;
+      opacity: 0;
+      left: -1100px;
+      position: relative;
+    }
+    .ts3._active {
+      left: 0;
+      opacity: 1;
+    }
+    .ts4 {
+      transition: 1s;
+      opacity: 0;
+      right: -1100px;
+      position: relative;
+    }
+    .ts4._active {
+      right: 0;
+      opacity: 1;
+    }
+    .ts5 {
+      transition: 1s;
+      opacity: 0;
+      right: -900px;
+      position: relative;
+    }
+    .ts5._active {
+      right: 0;
+      opacity: 1;
+    }
+    .ts6 {
+      transition: 1s;
+      opacity: 0;
+      right: -700px;
+      position: relative;
+    }
+    .ts6._active {
+      right: 0;
+      opacity: 1;
+    }
+  }
+
+  .theater-service__motive {
+    .motive {
+      width: 100%;
+      height: 3px;
+      background-color: rgba(227, 203, 133, 1);
+      position: relative;
+
+      .motive-wrapper {
+        position: absolute;
+        top: 4px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        width: 1360px;
+        margin: auto;
+        position: absolute;
+      }
+    }
+    .motive-top {
+      transform: rotate(180deg);
+      width: 100%;
+      height: 3px;
+      background-color: rgba(227, 203, 133, 1);
+      position: relative;
+
+      .motive-wrapper {
+        position: absolute;
+        top: 4px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        width: 1360px;
+        margin: auto;
+        position: absolute;
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .theater-service {
+    .theater-service__title {
+      padding-top: 10px;
+      h2 {
+      }
+    }
+    .theater-service__title._active {
+    }
+
+    .theater-service__list {
+      width: 680px;
+      margin: 0 auto;
+      gap: 0;
+      .theater-service__list-item {
+        margin-bottom: 10px;
+        h4 {
+        }
+        span {
+          &::before {
+          }
+          &::after {
+          }
+        }
+        p {
+        }
+
+        .theater-service__list-item-attention {
+        }
+        .theater-service__list-item-attention-text {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .theater-service {
+    height: auto;
+    .theater-service__title {
+      padding-top: 30px;
+      h2 {
+        font-size: 30px;
+      }
+    }
+    .theater-service__title._active {
+    }
+
+    .theater-service__list {
+      width: 100%;
+      .theater-service__list-item {
+        width: 100%;
+        h4 {
+        }
+        span {
+          margin-left: 0;
+          &::before {
+          }
+          &::after {
+          }
+        }
+        p {
+          width: 100%;
+        }
+
+        .theater-service__list-item-attention {
+        }
+        .theater-service__list-item-attention-text {
+        }
+      }
+      .ts1 {
+      }
+      .ts1._active {
+      }
+      .ts2 {
+      }
+      .ts2._active {
+      }
+      .ts3 {
+      }
+      .ts3._active {
+      }
+      .ts4 {
+      }
+      .ts4._active {
+      }
+      .ts5 {
+      }
+      .ts5._active {
+      }
+      .ts6 {
+      }
+      .ts6._active {
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .theater-service {
+    .theater-service__title {
+      width: 100%;
+
+      img {
+        display: none;
+      }
+      h2 {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .theater-service__title._active {
+    }
+
+    .theater-service__list {
+      width: 100%;
+      .theater-service__list-item {
+        width: 100%;
+        h4 {
+        }
+        span {
+          margin-left: 0;
+          &::before {
+          }
+          &::after {
+          }
+        }
+        p {
+          width: 100%;
+        }
+
+        .theater-service__list-item-attention {
+        }
+        .theater-service__list-item-attention-text {
+        }
+      }
+    }
+  }
+}

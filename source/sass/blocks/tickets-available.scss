@@ -1,0 +1,260 @@
+.tickets-available {
+  margin-bottom: 40px;
+  .tickets-available__title {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 110%;
+    color: #b11733;
+    margin-bottom: 40px;
+  }
+  .tickets-available__block {
+    display: flex;
+    justify-content: space-between;
+    .tickets-available__block-list {
+      width: 670px;
+      display: flex;
+      justify-content: space-between;
+      .tickets-available__top-block-date {
+        display: flex;
+        align-items: center;
+        width: 210px;
+        height: 70px;
+        border: 1px solid #e3cb85;
+        border-radius: 10px;
+        padding: 10px;
+        cursor: pointer;
+        transition: 0.2s;
+        &:hover {
+          border: 1px solid #c9ac54;
+          box-shadow: 0px 0px 0px 1px rgba(227, 203, 133, 1);
+        }
+        .tickets-available__number {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 45px;
+          line-height: 51px;
+          color: #b11733;
+          margin-right: 8px;
+        }
+
+        .tickets-available__date {
+          text-align: left;
+          .tickets-available__date-information {
+            display: flex;
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 23px;
+            text-transform: uppercase;
+            color: #4b0e0e;
+            align-items: center;
+            margin-bottom: 5px;
+            .tickets-available__date-information-day {
+              margin-right: 10px;
+            }
+            .tickets-available__date-information-line {
+              width: 2px;
+              height: 20px;
+              background-color: #4b0e0e;
+              margin-right: 10px;
+            }
+            .tickets-available__date-information-time {
+            }
+          }
+
+          .tickets-available__date-mouth {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17px;
+            text-transform: uppercase;
+            color: #4b0e0e;
+          }
+        }
+      }
+    }
+    .tickets-available__block-link {
+      position: relative;
+      &::before {
+        position: absolute;
+        content: "";
+        top: 21px;
+        left: -90px;
+        z-index: 1;
+        background-image: url(../img/curl1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 28px;
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        top: 21px;
+        left: 270px;
+        z-index: 1;
+        background-image: url(../img/curl2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 28px;
+      }
+      a {
+        display: block;
+        text-decoration: none;
+        width: 250px;
+        height: 70px;
+        background: #b11733;
+        border-radius: 10px;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 28px 70px;
+        transition: 0.2s;
+        &:hover {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 100%;
+          color: #4b0e0e;
+          background: #cfb368;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .tickets-available {
+    margin-top: 30px;
+    .tickets-available__title {
+    }
+    .tickets-available__block {
+      .tickets-available__block-list {
+        .tickets-available__top-block-date {
+          .tickets-available__number {
+          }
+
+          .tickets-available__date {
+            .tickets-available__date-information {
+              .tickets-available__date-information-day {
+              }
+              .tickets-available__date-information-line {
+              }
+              .tickets-available__date-information-time {
+              }
+            }
+
+            .tickets-available__date-mouth {
+            }
+          }
+        }
+      }
+      .tickets-available__block-link {
+        &::before {
+          display: none;
+        }
+        &::after {
+          display: none;
+        }
+        a {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .tickets-available {
+    .tickets-available__title {
+      font-size: 40px;
+    }
+    .tickets-available__block {
+      flex-wrap: wrap;
+      .tickets-available__block-list {
+        width: 100%;
+        margin-bottom: 20px;
+        .tickets-available__top-block-date {
+          display: flex;
+          align-items: center;
+          width: 180px;
+          .tickets-available__number {
+            font-size: 30px;
+          }
+
+          .tickets-available__date {
+            .tickets-available__date-information {
+              font-size: 18px;
+              .tickets-available__date-information-day {
+              }
+              .tickets-available__date-information-line {
+              }
+              .tickets-available__date-information-time {
+              }
+            }
+
+            .tickets-available__date-mouth {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .tickets-available__block-link {
+        a {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .tickets-available {
+    .tickets-available__title {
+      font-size: 30px;
+      width: 100%;
+      text-align: center;
+    }
+    .tickets-available__block {
+      .tickets-available__block-list {
+        flex-direction: column;
+        .tickets-available__top-block-date {
+          margin: 0 auto;
+          margin-bottom: 10px;
+          .tickets-available__number {
+          }
+
+          .tickets-available__date {
+            .tickets-available__date-information {
+              .tickets-available__date-information-day {
+              }
+              .tickets-available__date-information-line {
+              }
+              .tickets-available__date-information-time {
+              }
+            }
+
+            .tickets-available__date-mouth {
+            }
+          }
+        }
+      }
+      .tickets-available__block-link {
+        margin: 0 auto;
+        a {
+        }
+      }
+    }
+  }
+}

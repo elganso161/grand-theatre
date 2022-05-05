@@ -1,0 +1,41 @@
+.burger {
+  cursor: pointer;
+  display: none;
+  position: relative;
+  z-index: 1000;
+  width: 30px;
+  height: 20px;
+  .line {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .burger {
+    display: block;
+    .line-one {
+      transition: 0.2s;
+    }
+    .line-one.active {
+      transform: rotate(45deg);
+      margin-bottom: -2px;
+      margin-top: 6px;
+    }
+    .line-two {
+      transition: 0.2s;
+    }
+    .line-two.active {
+      transform: rotate(-45deg);
+      margin-bottom: -1px;
+    }
+    .line-three {
+      transition: 0.2s;
+    }
+    .line-three.active {
+      display: none;
+    }
+  }
+}

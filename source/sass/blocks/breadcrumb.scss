@@ -1,0 +1,29 @@
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  padding-top: 230px;
+  margin-bottom: 50px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  li {
+    list-style: none;
+    color: #fff;
+    a {
+      text-decoration: none;
+      color: #fff;
+      transition: 0.2s;
+      &:hover {
+        color: #e3cb85;
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .breadcrumb {
+    padding-top: 70px;
+    font-size: 18px;
+  }
+}

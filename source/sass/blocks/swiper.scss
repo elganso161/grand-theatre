@@ -1,0 +1,208 @@
+.swiper {
+  width: 100%;
+  // height: 100vh;
+  height: calc(100vh - 160px);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  // background-image: url("../img/swiper-img/photo-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+}
+
+.swiper-slide__data {
+  width: 100%;
+  height: 100%;
+
+  .swiper-slide__top-block {
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+
+    .swiper-slide__top-block-date {
+      display: flex;
+      align-items: center;
+
+      .swiper-slide__number {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 100%;
+        color: #e3cb85;
+        margin-right: 20px;
+      }
+
+      .swiper-slide__date {
+        text-align: left;
+        .swiper-slide__date-information {
+          display: flex;
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 25px;
+          line-height: 28px;
+          text-transform: uppercase;
+          color: #ffffff;
+          align-items: center;
+          margin-bottom: 5px;
+          .swiper-slide__date-information-day {
+            margin-right: 10px;
+          }
+          .swiper-slide__date-information-line {
+            width: 2px;
+            height: 20px;
+            background-color: #fff;
+            margin-right: 10px;
+          }
+          .swiper-slide__date-information-time {
+          }
+        }
+
+        .swiper-slide__date-mouth {
+          font-family: "Georgia";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 20px;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .swiper-slide__age-rating {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 36px;
+      text-align: center;
+      color: #ffffff;
+      width: 95px;
+      height: 45px;
+      border: 1.65517px solid #ffffff;
+      border-radius: 10px;
+    }
+  }
+
+  .swiper-slide__data-title {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  .swiper-slide__data-subtitle {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 115%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 60px;
+  }
+  .swiper-slide__data-link {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+
+    border: 2px solid rgba(227, 203, 133, 1);
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 21px 63px;
+    transition: 0.2s;
+    &:hover {
+      background-color: rgba(227, 203, 133, 0.2);
+    }
+  }
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #fff;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #e3cb85;
+}
+
+@media (max-width: 1180px) {
+  .swiper-slide__data {
+    .swiper-slide__top-block {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .swiper-slide__data {
+    .swiper-slide__data-title {
+      font-size: 40px;
+    }
+    .swiper-slide__data-subtitle {
+      font-size: 28px;
+      margin-bottom: 160px;
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    display: none;
+  }
+
+  .swiper-slide__data {
+    .swiper-slide__top-block {
+      margin-bottom: 40px;
+    }
+    .swiper-slide__data-title {
+      margin-bottom: 40px;
+    }
+    .swiper-slide__data-subtitle {
+      margin-bottom: 60px;
+    }
+  }
+}

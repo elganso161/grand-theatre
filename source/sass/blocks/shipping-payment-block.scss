@@ -1,0 +1,389 @@
+.shipping-payment-block {
+  .shipping-payment-block__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 860px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 115px;
+      left: 429px;
+      z-index: 1;
+      width: 1px;
+      height: 650px;
+      background-color: #e3cb85;
+    }
+    h3 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 110%;
+      text-align: center;
+      color: #b11733;
+      width: 280px;
+    }
+    img {
+      width: 220px;
+      height: 48px;
+    }
+  }
+
+  .shipping-payment-block__list {
+    display: flex;
+    justify-content: space-between;
+    .left-block__list {
+      width: 540px;
+      .left-block__list-item-title {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 115%;
+        text-align: center;
+        color: #4b0e0e;
+        margin-bottom: 60px;
+        width: 540px;
+      }
+      ul {
+        li {
+          list-style: none;
+          margin-bottom: 120px;
+          h5 {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 125%;
+            text-transform: uppercase;
+            color: #242424;
+            margin-bottom: 15px;
+            width: 360px;
+          }
+          .pay-line {
+            margin-left: -35px;
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #e3cb85;
+            position: relative;
+            margin-bottom: 15px;
+            &::before {
+              position: absolute;
+              content: "";
+              top: 10px;
+              left: 33px;
+              z-index: 1;
+              width: 100px;
+              height: 2px;
+              background-color: #e3cb85;
+            }
+            &::after {
+              position: absolute;
+              content: "";
+              top: 4px;
+              left: 145px;
+              z-index: 1;
+              background-image: url(../img/theater-service-motive-img.svg);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 15px;
+              height: 15px;
+              margin-bottom: 15px;
+            }
+          }
+          p {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 155%;
+            color: #242424;
+            width: 470px;
+          }
+        }
+      }
+    }
+    .rigth-block__list {
+      width: 500px;
+      .rigth-block__list-item-title {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 115%;
+        text-align: center;
+        color: #4b0e0e;
+        margin-bottom: 60px;
+        width: 540px;
+      }
+      ul {
+        li {
+          list-style: none;
+          margin: 0 auto;
+          margin-bottom: 120px;
+          h5 {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 125%;
+            text-transform: uppercase;
+            color: #242424;
+            // margin: 0 auto;
+            margin-bottom: 15px;
+            width: 360px;
+          }
+          .pay-line {
+            margin-left: -35px;
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #e3cb85;
+            position: relative;
+            margin-bottom: 15px;
+            &::before {
+              position: absolute;
+              content: "";
+              top: 10px;
+              left: 33px;
+              z-index: 1;
+              width: 100px;
+              height: 2px;
+              background-color: #e3cb85;
+            }
+            &::after {
+              position: absolute;
+              content: "";
+              top: 4px;
+              left: 145px;
+              z-index: 1;
+              background-image: url(../img/theater-service-motive-img.svg);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 15px;
+              height: 15px;
+              margin-bottom: 15px;
+            }
+          }
+
+          .pay-img {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          p {
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 155%;
+            color: #242424;
+            width: 470px;
+          }
+          .pay-attention {
+            span {
+              display: block;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 155%;
+              color: #242424;
+              margin-bottom: 30px;
+            }
+            p {
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 155%;
+              color: #4b0e0e;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .shipping-payment-block {
+    .shipping-payment-block__title {
+      display: none;
+    }
+
+    .shipping-payment-block__list {
+      flex-wrap: wrap;
+      .left-block__list {
+        width: 100%;
+        .left-block__list-item-title {
+          width: 100%;
+          text-align: center;
+          position: relative;
+          &::before {
+            position: absolute;
+            content: "Доставка";
+            top: -75px;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 1;
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 110%;
+            text-align: center;
+            color: #b11733;
+          }
+        }
+        ul {
+          li {
+            h5 {
+            }
+            .pay-line {
+              &::before {
+              }
+              &::after {
+              }
+            }
+            p {
+            }
+          }
+        }
+      }
+      .rigth-block__list {
+        width: 100%;
+        .rigth-block__list-item-title {
+          width: 100%;
+          text-align: center;
+          position: relative;
+          &::before {
+            position: absolute;
+            content: "Оплата";
+            top: -75px;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 1;
+            font-family: "Georgia";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 110%;
+            text-align: center;
+            color: #b11733;
+          }
+        }
+        ul {
+          li {
+            h5 {
+            }
+            .pay-line {
+              &::before {
+              }
+              &::after {
+              }
+            }
+
+            .pay-img {
+            }
+            p {
+            }
+            .pay-attention {
+              span {
+              }
+              p {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .shipping-payment-block {
+    .shipping-payment-block__title {
+    }
+
+    .shipping-payment-block__list {
+      .left-block__list {
+        .left-block__list-item-title {
+        }
+        ul {
+          li {
+            h5 {
+              width: 100%;
+              text-align: center;
+            }
+            .pay-line {
+              width: 100%;
+              text-align: left;
+              margin-left: 0;
+              &::before {
+              }
+              &::after {
+              }
+            }
+            p {
+              width: 100%;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .rigth-block__list {
+        .rigth-block__list-item-title {
+        }
+        ul {
+          li {
+            h5 {
+              width: 100%;
+              text-align: center;
+            }
+            .pay-line {
+              width: 100%;
+              text-align: left;
+              margin-left: 0;
+              &::before {
+              }
+              &::after {
+              }
+            }
+
+            .pay-img {
+              flex-wrap: wrap;
+              gap: 20px;
+              div {
+                width: 90px;
+              }
+            }
+            p {
+              width: 100%;
+              text-align: center;
+            }
+            .pay-attention {
+              span {
+              }
+              p {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

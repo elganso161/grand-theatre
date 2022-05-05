@@ -1,0 +1,48 @@
+.selections {
+  width: 100%;
+  height: calc(100vh - 160px);
+  background-image: url(../img/selection-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  h2 {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  h3 {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 115%;
+    text-align: center;
+    color: #ffffff;
+    width: 840px;
+    color: #e3cb85;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 960px) {
+  .selections {
+    h2 {
+      font-size: 40px;
+    }
+    h3 {
+      width: 100%;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 621px) {
+
+}

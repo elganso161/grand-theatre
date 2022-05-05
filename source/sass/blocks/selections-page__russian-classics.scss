@@ -1,0 +1,499 @@
+.selections-page__russian-classics {
+  margin-bottom: 120px;
+  .selections-page__russian-classics-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    h2 {
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 110%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #b11733;
+    }
+  }
+
+  .russian-classics-tabs {
+    margin: 0 0 60px 0;
+
+    .russian-classics-tabs__buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .russian-classics-tabs__button {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #e3cb85;
+        width: 20%;
+        height: 50px;
+        border-bottom: 1px solid #e3cb85;
+        cursor: pointer;
+      }
+
+      .russian-classics-tabs__button.active {
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #b11733;
+        border-bottom: 1px solid #b11733;
+      }
+    }
+
+    .russian-classics-tabs__body {
+      width: 100%;
+      height: auto;
+      .russian-classics-tabs__item {
+        padding: 20px 0;
+        font-size: 24px;
+        line-height: 48px;
+        display: none;
+        position: relative;
+        // Мусоргский
+        .russian-classics-mussorgsky__list {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          // row-gap: 25px;
+          .russian-classics-mussorgsky__list-item {
+            list-style: none;
+            width: 270px;
+            height: 320px;
+            border-radius: 15px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 25px;
+            position: relative;
+            margin-bottom: 25px;
+            .russian-classics-mussorgsky__list-title {
+              width: 220px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 125%;
+              color: #ffffff;
+              border-bottom: 2px solid #e3cb85;
+              padding-bottom: 10px;
+              margin-bottom: 10px;
+            }
+            .russian-classics-mussorgsky__list-subtitle {
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 155%;
+              color: #ffffff;
+            }
+            .russian-classics-mussorgsky__list-link {
+              text-decoration: none;
+              position: absolute;
+              bottom: 25px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: #e3cb85;
+            }
+            top: 100px;
+            opacity: 0;
+            transition: 1s;
+          }
+          .russian-classics-mussorgsky__list-item._active {
+            top: 0;
+            opacity: 1;
+          }
+        }
+        // Прокофьев
+        .russian-classics-prokofiev__list {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          // row-gap: 25px;
+          .russian-classics-prokofiev__list-item {
+            list-style: none;
+            width: 270px;
+            height: 320px;
+            border-radius: 15px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 25px;
+            position: relative;
+            margin-bottom: 25px;
+            .russian-classics-prokofiev__list-title {
+              width: 220px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 125%;
+              color: #ffffff;
+              border-bottom: 2px solid #e3cb85;
+              padding-bottom: 10px;
+              margin-bottom: 10px;
+            }
+            .russian-classics-prokofiev__list-subtitle {
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 155%;
+              color: #ffffff;
+            }
+            .russian-classics-prokofiev__list-link {
+              text-decoration: none;
+              position: absolute;
+              bottom: 25px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: #e3cb85;
+            }
+          }
+        }
+        // Римский - Корсаков
+        .russian-classics-rimsky-korsakov__list {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          // row-gap: 25px;
+          .russian-classics-rimsky-korsakov__list-item {
+            list-style: none;
+            width: 270px;
+            height: 320px;
+            border-radius: 15px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 25px;
+            position: relative;
+            margin-bottom: 25px;
+            .russian-classics-rimsky-korsakov__list-title {
+              width: 220px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 125%;
+              color: #ffffff;
+              border-bottom: 2px solid #e3cb85;
+              padding-bottom: 10px;
+              margin-bottom: 10px;
+            }
+            .russian-classics-rimsky-korsakov__list-subtitle {
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 155%;
+              color: #ffffff;
+            }
+            .russian-classics-rimsky-korsakov__list-link {
+              text-decoration: none;
+              position: absolute;
+              bottom: 25px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: #e3cb85;
+            }
+          }
+        }
+        // Чайковский
+        .russian-classics-tchaikovsky__list {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          // row-gap: 25px;
+          .russian-classics-tchaikovsky__list-item {
+            list-style: none;
+            width: 270px;
+            height: 320px;
+            border-radius: 15px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 25px;
+            position: relative;
+            margin-bottom: 25px;
+            .russian-classics-tchaikovsky__list-title {
+              width: 220px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 125%;
+              color: #ffffff;
+              border-bottom: 2px solid #e3cb85;
+              padding-bottom: 10px;
+              margin-bottom: 10px;
+            }
+            .russian-classics-tchaikovsky__list-subtitle {
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 155%;
+              color: #ffffff;
+            }
+            .russian-classics-tchaikovsky__list-link {
+              text-decoration: none;
+              position: absolute;
+              bottom: 25px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: #e3cb85;
+            }
+          }
+        }
+        // Шостакович
+        .russian-classics-shostakovich__list {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          // row-gap: 25px;
+          .russian-classics-shostakovich__list-item {
+            list-style: none;
+            width: 270px;
+            height: 320px;
+            border-radius: 15px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 25px;
+            position: relative;
+            margin-bottom: 25px;
+            .russian-classics-shostakovich__list-title {
+              width: 220px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 125%;
+              color: #ffffff;
+              border-bottom: 2px solid #e3cb85;
+              padding-bottom: 10px;
+              margin-bottom: 10px;
+            }
+            .russian-classics-shostakovich__list-subtitle {
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 155%;
+              color: #ffffff;
+            }
+            .russian-classics-shostakovich__list-link {
+              text-decoration: none;
+              position: absolute;
+              bottom: 25px;
+              font-family: "Georgia";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: #e3cb85;
+            }
+          }
+        }
+      }
+      .russian-classics-tabs__item.active {
+        display: block;
+        animation: identifier 0.5s linear;
+      }
+      @keyframes identifier {
+        0% {
+          top: 0;
+          opacity: 0.7;
+        }
+        50% {
+          opacity: 0.8;
+          top: 10px;
+        }
+        100% {
+          top: 0;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .selections-page__russian-classics {
+    margin-top: 60px;
+    .selections-page__russian-classics-title {
+      margin-bottom: 60px;
+      h2 {
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .selections-page__russian-classics {
+    .selections-page__russian-classics-title {
+      h2 {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 621px) {
+  .selections-page__russian-classics {
+    margin-bottom: 40px;
+    .selections-page__russian-classics-title {
+      h2 {
+        width: 100%;
+        text-align: center;
+        display: block;
+      }
+      img {
+        display: none;
+      }
+    }
+    .russian-classics-tabs {
+      .russian-classics-tabs__buttons {
+        flex-wrap: wrap;
+        .russian-classics-tabs__button {
+          width: 100%;
+          font-size: 14px;
+          margin-bottom: 25px;
+        }
+
+        .russian-classics-tabs__button.active {
+          font-size: 14px;
+        }
+      }
+
+      .russian-classics-tabs__body {
+        .russian-classics-tabs__item {
+          // russian-classics-mussorgsky
+          .russian-classics-mussorgsky__list {
+            width: 100%;
+            .russian-classics-mussorgsky__list-item {
+              width: 360px;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              width: 100%;
+              border-radius: 15px;
+              .russian-classics-mussorgsky__list-title {
+              }
+              .russian-classics-mussorgsky__list-subtitle {
+              }
+              .russian-classics-mussorgsky__list-link {
+              }
+            }
+            .russian-classics-mussorgsky__list-item._active {
+            }
+          }
+          // russian-classics-prokofiev
+          .russian-classics-prokofiev__list {
+            width: 100%;
+            .russian-classics-prokofiev__list-item {
+              width: 360px;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              width: 100%;
+              border-radius: 15px;
+              .russian-classics-prokofiev__list-title {
+              }
+              .russian-classics-prokofiev__list-subtitle {
+              }
+              .russian-classics-prokofiev__list-link {
+              }
+            }
+            .russian-classics-prokofiev__list-item._active {
+            }
+          }
+          // russian-classics-rimsky-korsakov
+          .russian-classics-rimsky-korsakov__list {
+            width: 100%;
+            .russian-classics-rimsky-korsakov__list-item {
+              width: 360px;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              width: 100%;
+              border-radius: 15px;
+              .russian-classics-rimsky-korsakov__list-title {
+              }
+              .russian-classics-rimsky-korsakov__list-subtitle {
+              }
+              .russian-classics-rimsky-korsakov__list-link {
+              }
+            }
+            .russian-classics-rimsky-korsakov__list-item._active {
+            }
+          }
+          // russian-classics-tchaikovsky
+          .russian-classics-tchaikovsky__list {
+            width: 100%;
+            .russian-classics-tchaikovsky__list-item {
+              width: 360px;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              width: 100%;
+              border-radius: 15px;
+              .russian-classics-tchaikovsky__list-title {
+              }
+              .russian-classics-tchaikovsky__list-subtitle {
+              }
+              .russian-classics-tchaikovsky__list-link {
+              }
+            }
+            .russian-classics-tchaikovsky__list-item._active {
+            }
+          }
+          // russian-classics-shostakovich
+          .russian-classics-shostakovich__list {
+            width: 100%;
+            .russian-classics-shostakovich__list-item {
+              width: 360px;
+              margin: 0 auto;
+              margin-bottom: 20px;
+              width: 100%;
+              border-radius: 15px;
+              .russian-classics-shostakovich__list-title {
+              }
+              .russian-classics-shostakovich__list-subtitle {
+              }
+              .russian-classics-shostakovich__list-link {
+              }
+            }
+            .russian-classics-shostakovich__list-item._active {
+            }
+          }
+        }
+      }
+    }
+  }
+}
