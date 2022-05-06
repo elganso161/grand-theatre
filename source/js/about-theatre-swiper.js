@@ -12,6 +12,14 @@ var aboutTheatreSwiper2 = new Swiper(".aboutTheatreSwiper2", {
   thumbs: {
     swiper: aboutTheatreSwiper,
   },
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   type: "fraction",
+  // },
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
 });
 
 const mQuery = window.matchMedia("(max-width: 621px)");
@@ -31,5 +39,13 @@ if (mQuery.matches) {
     thumbs: {
       swiper: aboutTheatreSwiper,
     },
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   type: "fraction",
+    // },
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
   });
 }

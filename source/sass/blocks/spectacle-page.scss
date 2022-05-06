@@ -265,11 +265,12 @@
   }
 }
 
-@media (max-width:621px) {
+@media (max-width: 621px) {
   .spectacle-page {
     .spectacle-page__data {
       .spectacle-page__top-block {
-       margin-bottom: 40px;
+        padding-top: 30px;
+        margin-bottom: 40px;
 
         .spectacle-page__top-block-date {
           .spectacle-page__number {
@@ -295,11 +296,10 @@
       }
 
       .spectacle-page__data-title {
-
       }
       .spectacle-page__data-subtitle {
+        font-size: 18px;
         margin-bottom: 40px;
-
       }
 
       .spectacle-page__data-link-video {
