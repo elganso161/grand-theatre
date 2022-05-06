@@ -110,6 +110,19 @@
       text-align: center;
       color: rgba(36, 36, 36, 0.5);
       opacity: 0.8;
+      a {
+        text-decoration: none;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 125%;
+        color: rgba(36, 36, 36, 0.5);
+        transition: 0.2s;
+        &:hover {
+          border-bottom: 1px solid rgba(36, 36, 36, 0.5);
+        }
+      }
     }
   }
 }

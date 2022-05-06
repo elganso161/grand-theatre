@@ -19,6 +19,7 @@ overlay.addEventListener("click", () => {
 
 closeModalButtons.forEach((button) => {
   button.addEventListener("click", () => {
+
     const modal = button.closest(".modal");
     const modalGalery = button.closest(".popup-galery");
     const modalForm = button.closest(".popup-form");

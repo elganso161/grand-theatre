@@ -302,6 +302,19 @@
       text-align: center;
       color: #e3cb85;
       opacity: 0.8;
+      a {
+        text-decoration: none;
+        font-family: "Georgia";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 135%;
+        color: #e3cb85;
+        transition: 0.2s;
+        &:hover {
+          border-bottom: 1px solid #e3cb85;
+        }
+      }
     }
   }
 }

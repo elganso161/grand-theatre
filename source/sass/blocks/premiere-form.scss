@@ -114,7 +114,7 @@
 
   .premiere-form__block-privacy-policy {
     display: block;
-    text-decoration: none;
+
     width: 510px;
     font-family: "Georgia";
     font-style: normal;
@@ -126,7 +126,20 @@
     opacity: 0.8;
     margin: 0 auto;
     margin-bottom: 65px;
-    cursor: pointer;
+    a {
+      text-decoration: none;
+      font-family: "Georgia";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 125%;
+      text-align: center;
+      color: #ffffff;
+      transition: 0.2s;
+      &:hover {
+        border-bottom: 1px solid #ffffff;
+      }
+    }
   }
 }
 
