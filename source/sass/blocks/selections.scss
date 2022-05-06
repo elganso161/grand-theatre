@@ -44,5 +44,7 @@
 }
 
 @media (max-width: 621px) {
-
+  .selections {
+    height: calc(100vh - 130px);
+  }
 }

@@ -21,6 +21,9 @@
 }
 @media (max-width: 960px) {
   .button-up-show {
-    display: none;
+    left: 50%;
+    bottom: 70px;
+    transform: translate(-50%);
+    opacity: 0.5;
   }
 }

@@ -248,10 +248,13 @@
         .ballet-performances-tabs__item {
           .historical-scene__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .historical-scene__list-item {
               width: 100%;
               margin: 0 auto;
-              margin-bottom: 20px;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .historical-scene__list-title {
               }
               .historical-scene__list-subtitle {
@@ -265,10 +268,13 @@
           // new
           .new-scene__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .new-scene__list-item {
               width: 100%;
               margin: 0 auto;
-              margin-bottom: 20px;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .new-scene__list-title {
               }
               .new-scene__list-subtitle {

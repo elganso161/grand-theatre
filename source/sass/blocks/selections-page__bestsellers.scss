@@ -245,12 +245,13 @@
         .bestsellers-tabs__item {
           .bestsellers-balet__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .bestsellers-balet__list-item {
-              width: 360px;
-              margin: 0 auto;
-              margin-bottom: 20px;
               width: 100%;
-              border-radius: 15px;
+              margin: 0 auto;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .bestsellers-balet__list-title {
               }
               .bestsellers-balet__list-subtitle {
@@ -264,12 +265,13 @@
           // new
           .bestsellers-opera__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .bestsellers-opera__list-item {
-              width: 360px;
-              margin: 0 auto;
-              margin-bottom: 20px;
               width: 100%;
-              border-radius: 15px;
+              margin: 0 auto;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .bestsellers-opera__list-title {
               }
               .bestsellers-opera__list-subtitle {

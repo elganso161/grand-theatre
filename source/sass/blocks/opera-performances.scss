@@ -297,10 +297,13 @@
         .opera-performances-tabs__item {
           .opera-historical-scene__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .opera-historical-scene__list-item {
               width: 100%;
               margin: 0 auto;
-              margin-bottom: 20px;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .opera-historical-scene__list-title {
               }
               .opera-historical-scene__list-subtitle {
@@ -314,10 +317,13 @@
           // new
           .opera-new-scene__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .opera-new-scene__list-item {
               width: 100%;
               margin: 0 auto;
-              margin-bottom: 20px;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .opera-new-scene__list-title {
               }
               .opera-new-scene__list-subtitle {
@@ -329,10 +335,13 @@
           // opera-chamber-stage-scene
           .opera-chamber-stage-scene__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .opera-chamber-stage-scene__list-item {
               width: 100%;
               margin: 0 auto;
-              margin-bottom: 20px;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .opera-chamber-stage-scene__list-title {
               }
               .opera-chamber-stage-scene__list-subtitle {

@@ -149,10 +149,15 @@
     }
     .foreign-productions__list {
       width: 100%;
+      overflow: auto;
+      flex-wrap: nowrap;
       .foreign-productions__list-item {
-        margin: 0 auto;
-        margin-bottom: 20px;
         width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        min-width: 270px;
+        height: 320px;
         border-radius: 15px;
         .foreign-productions__list-link {
           text-decoration: none;
@@ -161,10 +166,14 @@
           display: block;
 
           .foreign-productions__list-title {
+            width: 230px;
             bottom: 90px;
+            left: 20px;
           }
           .foreign-productions__list-text {
+            width: 230px;
             bottom: 30px;
+            left: 20px;
           }
         }
       }

@@ -189,6 +189,9 @@
 }
 
 @media (max-width: 621px) {
+  .swiper {
+    height: calc(100vh - 130px);
+  }
   .swiper-button-next:after,
   .swiper-button-prev:after {
     display: none;

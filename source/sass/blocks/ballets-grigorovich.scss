@@ -151,10 +151,15 @@
     }
     .ballets-grigorovich__list {
       width: 100%;
+      overflow: auto;
+      flex-wrap: nowrap;
       .ballets-grigorovich__list-item {
-        margin: 0 auto;
-        margin-bottom: 20px;
         width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        min-width: 270px;
+        height: 320px;
         border-radius: 15px;
         .ballets-grigorovich__list-link {
           text-decoration: none;
@@ -163,10 +168,14 @@
           display: block;
 
           .ballets-grigorovich__list-title {
+            width: 230px;
             bottom: 90px;
+            left: 20px;
           }
           .ballets-grigorovich__list-text {
+            width: 230px;
             bottom: 30px;
+            left: 20px;
           }
         }
       }

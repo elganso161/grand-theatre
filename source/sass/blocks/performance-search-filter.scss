@@ -31,6 +31,7 @@
       font-weight: 400;
       font-size: 16px;
       line-height: 100%;
+      text-align: center;
 
       &::placeholder {
         font-family: "Georgia";
@@ -39,6 +40,7 @@
         font-size: 16px;
         line-height: 100%;
         color: rgba(36, 36, 36, 0.4);
+        text-align: center;
       }
     }
     button {
@@ -79,6 +81,22 @@
       button {
         margin: 0 auto;
         width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 621px) {
+  .performance-search-filter {
+    &::before {
+    }
+    form {
+      input {
+        padding: 22px 20px;
+
+        &::placeholder {
+        }
+      }
+      button {
       }
     }
   }

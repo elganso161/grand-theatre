@@ -267,6 +267,7 @@
 
 @media (max-width: 621px) {
   .spectacle-page {
+    height: calc(100vh - 130px);
     .spectacle-page__data {
       .spectacle-page__top-block {
         padding-top: 30px;

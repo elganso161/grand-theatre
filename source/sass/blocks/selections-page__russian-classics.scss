@@ -400,12 +400,13 @@
           // russian-classics-mussorgsky
           .russian-classics-mussorgsky__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .russian-classics-mussorgsky__list-item {
-              width: 360px;
-              margin: 0 auto;
-              margin-bottom: 20px;
               width: 100%;
-              border-radius: 15px;
+              margin: 0 auto;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .russian-classics-mussorgsky__list-title {
               }
               .russian-classics-mussorgsky__list-subtitle {
@@ -419,12 +420,13 @@
           // russian-classics-prokofiev
           .russian-classics-prokofiev__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .russian-classics-prokofiev__list-item {
-              width: 360px;
-              margin: 0 auto;
-              margin-bottom: 20px;
               width: 100%;
-              border-radius: 15px;
+              margin: 0 auto;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .russian-classics-prokofiev__list-title {
               }
               .russian-classics-prokofiev__list-subtitle {
@@ -438,12 +440,13 @@
           // russian-classics-rimsky-korsakov
           .russian-classics-rimsky-korsakov__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .russian-classics-rimsky-korsakov__list-item {
-              width: 360px;
-              margin: 0 auto;
-              margin-bottom: 20px;
               width: 100%;
-              border-radius: 15px;
+              margin: 0 auto;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .russian-classics-rimsky-korsakov__list-title {
               }
               .russian-classics-rimsky-korsakov__list-subtitle {
@@ -457,12 +460,13 @@
           // russian-classics-tchaikovsky
           .russian-classics-tchaikovsky__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .russian-classics-tchaikovsky__list-item {
-              width: 360px;
-              margin: 0 auto;
-              margin-bottom: 20px;
               width: 100%;
-              border-radius: 15px;
+              margin: 0 auto;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .russian-classics-tchaikovsky__list-title {
               }
               .russian-classics-tchaikovsky__list-subtitle {
@@ -476,12 +480,13 @@
           // russian-classics-shostakovich
           .russian-classics-shostakovich__list {
             width: 100%;
+            overflow: auto;
+            flex-wrap: nowrap;
             .russian-classics-shostakovich__list-item {
-              width: 360px;
-              margin: 0 auto;
-              margin-bottom: 20px;
               width: 100%;
-              border-radius: 15px;
+              margin: 0 auto;
+              margin-bottom: 10px;
+              margin-left: 20px;
               .russian-classics-shostakovich__list-title {
               }
               .russian-classics-shostakovich__list-subtitle {

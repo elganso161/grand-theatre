@@ -39,3 +39,9 @@
     }
   }
 }
+
+@media (max-width: 621px) {
+  .affiche-page__main-bg {
+    height: calc(100vh - 130px);
+  }
+}

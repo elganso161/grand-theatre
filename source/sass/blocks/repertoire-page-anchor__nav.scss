@@ -46,25 +46,25 @@
 }
 
 @media (max-width: 1180px) {
-  .repertoire-page-anchor__nav {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin-bottom: 0;
-    z-index: 201;
-    width: 100%;
-    .repertoire-page-anchor__nav-list {
-      justify-content: space-around;
-      .repertoire-page-anchor__nav-list-item {
-        .repertoire-page-anchor__nav-list-item-link {
-          &:hover {
-          }
-          &:active {
-          }
-        }
-      }
-    }
-  }
+  // .repertoire-page-anchor__nav {
+  //   position: fixed;
+  //   bottom: 0;
+  //   right: 0;
+  //   margin-bottom: 0;
+  //   z-index: 201;
+  //   width: 100%;
+  //   .repertoire-page-anchor__nav-list {
+  //     justify-content: space-around;
+  //     .repertoire-page-anchor__nav-list-item {
+  //       .repertoire-page-anchor__nav-list-item-link {
+  //         &:hover {
+  //         }
+  //         &:active {
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 @media (max-width: 621px) {

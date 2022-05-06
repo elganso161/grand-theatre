@@ -39,3 +39,9 @@
     }
   }
 }
+@media (max-width: 621px) {
+  .repertoire-page__main-bg {
+    width: 100%;
+    height: calc(100vh - 130px);
+  }
+}
