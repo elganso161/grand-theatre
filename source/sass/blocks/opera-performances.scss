@@ -300,7 +300,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .opera-historical-scene__list-item {
-              min-width: 330px;
+              min-width: 100%;
               margin: 0 auto;
               margin-bottom: 10px;
               margin-left: 20px;
@@ -323,7 +323,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .opera-new-scene__list-item {
-              min-width: 330px;
+              min-width: 100%;
               margin: 0 auto;
               margin-bottom: 10px;
               margin-left: 20px;
@@ -344,7 +344,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .opera-chamber-stage-scene__list-item {
-              min-width: 330px;
+              min-width: 100%;
               margin: 0 auto;
               margin-bottom: 10px;
               margin-left: 20px;
