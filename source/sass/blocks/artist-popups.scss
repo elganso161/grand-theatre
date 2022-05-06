@@ -24,6 +24,21 @@
   ::-webkit-scrollbar {
     width: 8px;
   }
+
+  // .close-popup {
+  //   display: none;
+  //   position: fixed;
+  //   top: 0;
+  //   right: 40px;
+  //   z-index: 102;
+  //   cursor: pointer;
+  //   transition: 0.2s;
+  //   opacity: 0.5;
+  //   z-index: 500;
+  //   &:hover {
+  //     opacity: 1;
+  //   }
+  // }
 }
 
 .modal {
@@ -50,7 +65,7 @@
     }
     .close-popup {
       position: fixed;
-      top:0;
+      top: 0;
       right: 40px;
       z-index: 102;
       cursor: pointer;

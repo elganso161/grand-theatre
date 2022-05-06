@@ -300,7 +300,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .opera-historical-scene__list-item {
-              width: 100%;
+              min-width: 330px;
               margin: 0 auto;
               margin-bottom: 10px;
               margin-left: 20px;
@@ -311,6 +311,9 @@
               .opera-historical-scene__list-link {
               }
             }
+            .opera-historical-scene__list-item:first-child {
+              margin-left: 0;
+            }
             .opera-historical-scene__list-item._active {
             }
           }
@@ -320,7 +323,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .opera-new-scene__list-item {
-              width: 100%;
+              min-width: 330px;
               margin: 0 auto;
               margin-bottom: 10px;
               margin-left: 20px;
@@ -331,6 +334,9 @@
               .opera-new-scene__list-link {
               }
             }
+            .opera-new-scene__list-item:first-child {
+              margin-left: 0;
+            }
           }
           // opera-chamber-stage-scene
           .opera-chamber-stage-scene__list {
@@ -338,7 +344,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .opera-chamber-stage-scene__list-item {
-              width: 100%;
+              min-width: 330px;
               margin: 0 auto;
               margin-bottom: 10px;
               margin-left: 20px;
@@ -348,6 +354,9 @@
               }
               .opera-chamber-stage-scene__list-link {
               }
+            }
+            .opera-chamber-stage-scene__list-item:first-child {
+              margin-left: 0;
             }
           }
         }

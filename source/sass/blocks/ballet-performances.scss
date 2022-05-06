@@ -251,7 +251,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .historical-scene__list-item {
-              width: 100%;
+              min-width: 330px;
               margin: 0 auto;
               margin-bottom: 10px;
               margin-left: 20px;
@@ -262,6 +262,9 @@
               .historical-scene__list-link {
               }
             }
+            .historical-scene__list-item:first-child {
+              margin-left: 0;
+            }
             .historical-scene__list-item._active {
             }
           }
@@ -271,7 +274,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .new-scene__list-item {
-              width: 100%;
+              min-width: 330px;
               margin: 0 auto;
               margin-bottom: 10px;
               margin-left: 20px;
@@ -281,6 +284,9 @@
               }
               .new-scene__list-link {
               }
+            }
+            .new-scene__list-item:first-child {
+              margin-left: 0;
             }
           }
         }
