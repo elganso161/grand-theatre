@@ -21,6 +21,7 @@ closeModalButtons.forEach((button) => {
   button.addEventListener("click", () => {
 
     const modal = button.closest(".modal");
+    console.log(modal);
     const modalGalery = button.closest(".popup-galery");
     const modalForm = button.closest(".popup-form");
     closeModal(modal);

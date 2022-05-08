@@ -491,23 +491,27 @@
       .affiche-page__affiches-performance-list-item {
         flex-wrap: wrap;
         height: auto;
-        padding: 10px;
+        padding: 20px 10px;
         .affiche-page__affiches-performance-list-item-block-date {
           text-align: center;
           width: 170px;
           margin-bottom: 10px;
           .block-date__number {
+            font-size: 34px;
           }
           .block-date__date {
             .block-date__information {
               .block-date__information-day {
+                font-size: 22px;
               }
               .block-date__information-line {
               }
               .block-date__information-time {
+                font-size: 22px;
               }
             }
             .block-date__mouth {
+              font-size: 20px;
             }
           }
         }
@@ -516,8 +520,10 @@
           width: 90%;
           margin-bottom: 10px;
           h4 {
+            font-size: 16px;
           }
           p {
+            font-size: 13px;
           }
         }
 
@@ -541,8 +547,10 @@
         .affiche-page__affiches-performance-preorder-list-item-block-description {
           width: 90%;
           h4 {
+            font-size: 16px;
           }
           p {
+            font-size: 13px;
           }
         }
         .affiche-page__affiches-performance-preorder-list-item-block-button {

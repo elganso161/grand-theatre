@@ -360,36 +360,40 @@
       .next__performance-list-item {
         flex-wrap: wrap;
         height: auto;
-        padding: 10px;
+        padding: 20px 10px;
         .next__performance-list-item-block-date {
           text-align: center;
           width: 170px;
           // margin: 0 auto;
           margin-bottom: 10px;
           .block-date__number {
+            font-size: 34px;
           }
           .block-date__date {
             .block-date__information {
               .block-date__information-day {
+                font-size: 22px;
               }
               .block-date__information-line {
               }
               .block-date__information-time {
+                font-size: 22px;
               }
             }
             .block-date__mouth {
+              font-size: 20px;
             }
           }
         }
 
         .next__performance-list-item-block-description {
           width: 90%;
-          // margin: 0 auto;
           margin-bottom: 10px;
-          // text-align: center;
           h4 {
+            font-size: 16px;
           }
           p {
+            font-size: 13px;
           }
         }
 
@@ -412,11 +416,11 @@
         }
         .next__performance-preorder-list-item-block-description {
           width: 90%;
-          // margin: 0 auto;
-          // text-align: center;
           h4 {
+            font-size: 16px;
           }
           p {
+            font-size: 13px;
           }
         }
         .next__performance-preorder-list-item-block-button {

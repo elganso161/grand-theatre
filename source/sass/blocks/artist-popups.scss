@@ -63,18 +63,18 @@
       background-size: cover;
       margin-bottom: 107px;
     }
-    .close-popup {
-      position: fixed;
-      top: 0;
-      right: 40px;
-      z-index: 102;
-      cursor: pointer;
-      transition: 0.2s;
-      opacity: 0.5;
-      &:hover {
-        opacity: 1;
-      }
-    }
+    // .close-popup {
+    //   position: fixed;
+    //   top: 0;
+    //   right: 40px;
+    //   z-index: 102;
+    //   cursor: pointer;
+    //   transition: 0.2s;
+    //   opacity: 0.5;
+    //   &:hover {
+    //     opacity: 1;
+    //   }
+    // }
     h3 {
       font-family: "Georgia";
       font-style: normal;
@@ -304,19 +304,19 @@
         background-size: cover;
         margin-bottom: 107px;
       }
-      .close-popup {
-        position: absolute;
-        top: 0;
-        right: 40px;
-        z-index: 102;
-        width: 70px;
-        height: 70px;
-        cursor: pointer;
-        transition: 0.2s;
-        &:hover {
-          opacity: 0.7;
-        }
-      }
+      // .close-popup {
+      //   position: absolute;
+      //   top: 0;
+      //   right: 40px;
+      //   z-index: 102;
+      //   width: 70px;
+      //   height: 70px;
+      //   cursor: pointer;
+      //   transition: 0.2s;
+      //   &:hover {
+      //     opacity: 0.7;
+      //   }
+      // }
       h3 {
         display: block;
         width: 100%;

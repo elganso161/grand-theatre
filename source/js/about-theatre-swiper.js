@@ -39,13 +39,13 @@ if (mQuery.matches) {
     thumbs: {
       swiper: aboutTheatreSwiper,
     },
-    // pagination: {
-    //   el: ".swiper-pagination",
-    //   type: "fraction",
-    // },
-    // navigation: {
-    //   nextEl: ".swiper-button-next",
-    //   prevEl: ".swiper-button-prev",
-    // },
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
   });
 }
