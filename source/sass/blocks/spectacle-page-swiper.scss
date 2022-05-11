@@ -74,6 +74,23 @@
       font-size: 24px;
       line-height: 100%;
     }
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 50px;
+      height: 100%;
+      top: 22px;
+      background-color: RGBA(0, 0, 0, 0.5);
+      transition: 0.2s;
+      &:hover {
+        background-color: RGBA(0, 0, 0, 0.8);
+      }
+    }
+    .swiper-button-next {
+      right: 0;
+    }
+    .swiper-button-prev {
+      left: 0;
+    }
   }
 
   .spectaclePageSwiper {
@@ -142,8 +159,14 @@
         width: 40px;
         height: 40px;
         border-radius: 50%;
+        background-color: inherit;
+        transition: 0.2s;
+        &:hover {
+          background-color: inherit;
+        }
       }
       .swiper-button-next {
+        right: 10px;
         width: 40px;
         height: 40px;
         background-image: url(../img/arrow-right.png);
@@ -152,9 +175,12 @@
         background-repeat: no-repeat;
       }
       .swiper-button-prev {
+        right: 80px;
+        left: auto;
         width: 40px;
         height: 40px;
-        background-image: url(../img/left-arrow.png);
+        background-image: url(../img/arrow-right.png);
+        transform: rotate(180deg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
