@@ -32,8 +32,8 @@ if (mQuery.matches) {
     watchSlidesProgress: true,
   });
   var aboutTheatreSwiper2 = new Swiper(".aboutTheatreSwiper2", {
-    spaceBetween: 0,
-    slidesPerView: 1,
+    spaceBetween: 10,
+    slidesPerView: 1.2,
     loop: true,
     centeredSlides: true,
     thumbs: {

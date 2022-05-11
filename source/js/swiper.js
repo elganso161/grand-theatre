@@ -8,7 +8,7 @@ const data = [
     day: "Ср",
     time: "20:00",
     mouth: "Сентябрь",
-    link: "#",
+    link: "./spectacle-page.html",
   },
   {
     background: "./img/swiper-img/photo-2.jpg",
@@ -19,7 +19,7 @@ const data = [
     day: "Чт",
     time: "10:00",
     mouth: "Октябрь",
-    link: "#",
+    link: "./spectacle-page.html",
   },
   {
     background: "./img/swiper-img/photo-1.jpg",
@@ -30,7 +30,7 @@ const data = [
     day: "Ср",
     time: "20:00",
     mouth: "Сентябрь",
-    link: "#",
+    link: "./spectacle-page.html",
   },
 ];
 
