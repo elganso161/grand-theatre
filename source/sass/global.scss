@@ -40,11 +40,18 @@ ul {
   max-width: 1160px;
   margin: 0 auto;
 }
+// .tastcontainer {
+//   max-width: 1160px;
+//   margin: 0 auto;
+// }
 
 @media (max-width: 1295px) {
   .container {
     max-width: 90%;
   }
+  // .testcontainer {
+  //   max-width: 90%;
+  // }
 }
 
 @media (max-width: 1180px) {
@@ -52,4 +59,39 @@ ul {
     overflow: hidden;
     height: 100vh;
   }
+}
+
+@media (max-width: 621px) {
+  .max-container {
+    max-width: 100%;
+  }
+}
+
+::-webkit-scrollbar-button {
+  width: 6px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  // background-color: #ebe9e4;
+  background-color: #f5f5f5;
+  // box-shadow: 0px 0px 3px rgb(65, 64, 64) inset;
+  box-shadow: 0px 0px 3px rgb(245, 245, 245) inset;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #aaa;
+  box-shadow: 0px 1px 1px #fff inset;
+}
+
+::-webkit-resizer {
+  width: 7px;
+  height: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
 }

@@ -1,4 +1,4 @@
-.about-theatre-swiper {
+.spectacle-page-swiper {
   margin-top: 120px;
   margin-bottom: 80px;
 
@@ -38,7 +38,7 @@
     background-position: center;
   }
 
-  .aboutTheatreSwiper2 {
+  .spectaclePageSwiper2 {
     width: 100%;
     height: 500px;
     .swiper-slide {
@@ -76,7 +76,7 @@
     }
   }
 
-  .aboutTheatreSwiper {
+  .spectaclePageSwiper {
     width: 950px;
     height: 100px;
     padding: 10px 0;
@@ -85,13 +85,13 @@
     }
   }
 
-  .aboutTheatreSwiper .swiper-slide {
+  .spectaclePageSwiper .swiper-slide {
     width: 25%;
     height: 100%;
     opacity: 0.4;
   }
 
-  .aboutTheatreSwiper .swiper-slide-thumb-active {
+  .spectaclePageSwiper .swiper-slide-thumb-active {
     opacity: 1;
   }
 
@@ -104,16 +104,16 @@
 }
 
 @media (max-width: 1180px) {
-  .about-theatre-swiper {
-    .aboutTheatreSwiper {
+  .spectacle-page-swiper {
+    .spectaclePageSwiper {
       width: 100%;
     }
   }
 }
 
 @media (max-width: 621px) {
-  .about-theatre-swiper {
-    .aboutTheatreSwiper2 {
+  .spectacle-page-swiper {
+    .spectaclePageSwiper2 {
       width: 100%;
       height: 375px;
       // border-radius: 10px;
@@ -135,8 +135,32 @@
         left: 50%;
         transform: translateX(-50%);
       }
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        top: 70%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .swiper-button-next {
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/arrow-right.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/left-arrow.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
     }
-    .aboutTheatreSwiper {
+    .spectaclePageSwiper {
       display: none;
     }
 
