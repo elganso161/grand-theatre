@@ -1,6 +1,5 @@
 .swiper {
   width: 100%;
-  // height: 100vh;
   height: calc(100vh - 160px);
 }
 
@@ -37,8 +36,8 @@
   .swiper-slide__top-block {
     width: 1160px;
     margin: 0 auto;
-    margin-top: 90px;
-    margin-bottom: 120px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
 
@@ -166,6 +165,19 @@
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
   background-color: #e3cb85;
+}
+
+@media (min-width: 1920px) {
+  .swiper-slide__data {
+    .swiper-slide__top-block {
+      width: 1160px;
+      margin: 0 auto;
+      margin-top: 90px;
+      margin-bottom: 120px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }
 
 @media (max-width: 1180px) {

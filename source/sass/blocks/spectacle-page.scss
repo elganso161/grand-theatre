@@ -13,8 +13,8 @@
     .spectacle-page__top-block {
       width: 1160px;
       margin: 0 auto;
-      padding-top: 90px;
-      margin-bottom: 120px;
+      padding-top: 50px;
+      margin-bottom: 40px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -120,7 +120,7 @@
       display: block;
       width: 260px;
       margin: 0 auto;
-      margin-bottom: 150px;
+      margin-bottom: 50px;
       position: relative;
       &::before {
         position: absolute;
@@ -175,6 +175,19 @@
       margin: 0 auto;
       &:hover {
         background-color: rgba(227, 203, 133, 0.2);
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .spectacle-page {
+    .spectacle-page__data {
+      .spectacle-page__top-block {
+        width: 1160px;
+        margin: 0 auto;
+        padding-top: 90px;
+        margin-bottom: 120px;
       }
     }
   }

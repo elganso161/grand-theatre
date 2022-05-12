@@ -95,7 +95,7 @@
 
   .spectaclePageSwiper {
     // width: 950px;
-    width: 50%;
+    width: 65%;
     height: 100px;
     padding: 10px 0;
     .swiper-slide img {
@@ -136,6 +136,10 @@
       height: 375px;
       // border-radius: 10px;
       .swiper-slide {
+         &::before {
+           top: 15px;
+           left: 30px;
+         }
         img {
           border-radius: 10px;
         }
