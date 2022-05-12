@@ -1,6 +1,6 @@
 var spectaclePageSwiper = new Swiper(".spectaclePageSwiper", {
   spaceBetween: 10,
-  slidesPerView: 6,
+  slidesPerView: 9,
   freeMode: true,
   watchSlidesProgress: true,
 });
