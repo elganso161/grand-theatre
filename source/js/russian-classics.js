@@ -296,6 +296,7 @@ mussorgskyData.forEach((elem) => {
   russianClassicsMussorgskyListItem.classList.add(
     "russian-classics-mussorgsky__list-item"
   );
+  russianClassicsMussorgskyListItem.classList.add("_touch");
   russianClassicsMussorgskyListItem.classList.add("_anim-items");
   russianClassicsMussorgskyListItem.classList.add("_anim-no-hide");
   const russianClassicsMussorgskyListTitle = document.createElement("h4");
@@ -336,6 +337,7 @@ prokofievData.forEach((elem) => {
   russianClassicsProkofievListItem.classList.add(
     "russian-classics-prokofiev__list-item"
   );
+  russianClassicsProkofievListItem.classList.add("_touch");
   const russianClassicsProkofievListTitle = document.createElement("h4");
   russianClassicsProkofievListTitle.classList.add(
     "russian-classics-prokofiev__list-title"
@@ -374,6 +376,7 @@ rimskyKorsakovData.forEach((elem) => {
   russianClassicsRimskyKorsakovListItem.classList.add(
     "russian-classics-rimsky-korsakov__list-item"
   );
+  russianClassicsRimskyKorsakovListItem.classList.add("_touch");
   const russianClassicsRimskyKorsakovListTitle = document.createElement("h4");
   russianClassicsRimskyKorsakovListTitle.classList.add(
     "russian-classics-rimsky-korsakov__list-title"
@@ -415,6 +418,7 @@ tchaikovskyData.forEach((elem) => {
   russianClassicsTchaikovskyListItem.classList.add(
     "russian-classics-tchaikovsky__list-item"
   );
+  russianClassicsTchaikovskyListItem.classList.add("_touch");
   const russianClassicsTchaikovskyListTitle = document.createElement("h4");
   russianClassicsTchaikovskyListTitle.classList.add(
     "russian-classics-tchaikovsky__list-title"
@@ -455,6 +459,7 @@ shostakovichData.forEach((elem) => {
   russianClassicsShostakovichListItem.classList.add(
     "russian-classics-shostakovich__list-item"
   );
+  russianClassicsShostakovichListItem.classList.add("_touch");
   const russianClassicsShostakovichListTitle = document.createElement("h4");
   russianClassicsShostakovichListTitle.classList.add(
     "russian-classics-shostakovich__list-title"

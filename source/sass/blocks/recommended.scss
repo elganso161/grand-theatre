@@ -182,6 +182,7 @@
 
     .recommended__list {
       .recommended__list-item {
+        width: 100%;
         .recommended__list-item-link {
           height: auto;
           .recommended__list-item-link-text {
@@ -227,6 +228,12 @@
           position: relative;
           top: 0;
         }
+      }
+      .recommended__list-item._touch-active {
+        width: 97%;
+        height: 350px;
+        margin-bottom: 50px;
+        // padding-left: 30px;
       }
     }
   }

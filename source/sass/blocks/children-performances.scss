@@ -175,7 +175,17 @@
         }
       }
       .children-performances__list-item:first-child {
-         margin-left: 10px;
+        margin-left: 10px;
+      }
+      .children-performances__list-item:last-child {
+        margin-right: 10px;
+      }
+      .children-performances__list-item._touch-active {
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        min-width: 80%;
+        height: 300px;
       }
 
       .children-performances__list-item._active {

@@ -30,6 +30,7 @@ const recommendedList = document.querySelector(".recommended__list");
 recommendedData.forEach((elem) => {
   const recommendedListItem = document.createElement("li");
   recommendedListItem.classList.add("recommended__list-item");
+  recommendedListItem.classList.add("_touch");
   recommendedListItem.classList.add("_anim-items");
   recommendedListItem.classList.add("_anim-no-hide");
   const recommendedListItemLink = document.createElement("a");

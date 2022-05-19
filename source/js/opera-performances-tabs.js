@@ -191,6 +191,7 @@ operaHistoricalData.forEach((elem) => {
   );
   operaHistoricalSceneListItem.classList.add("_anim-items");
   operaHistoricalSceneListItem.classList.add("_anim-no-hide");
+  operaHistoricalSceneListItem.classList.add("_touch");
   const operaHistoricalSceneListTitle = document.createElement("h4");
   operaHistoricalSceneListTitle.classList.add(
     "opera-historical-scene__list-title"
@@ -223,6 +224,7 @@ operaChamberStageData.forEach((elem) => {
   operaChamberStageSceneListItem.classList.add(
     "opera-chamber-stage-scene__list-item"
   );
+  operaChamberStageSceneListItem.classList.add("_touch");
   const operaChamberStageSceneListTitle = document.createElement("h4");
   operaChamberStageSceneListTitle.classList.add(
     "opera-chamber-stage-scene__list-title"
@@ -255,6 +257,7 @@ operaChamberStageData.forEach((elem) => {
 operaNewData.forEach((elem) => {
   const operaNewSceneListItem = document.createElement("li");
   operaNewSceneListItem.classList.add("opera-new-scene__list-item");
+  operaNewSceneListItem.classList.add("_touch");
   const operaNewSceneListTitle = document.createElement("h4");
   operaNewSceneListTitle.classList.add("opera-new-scene__list-title");
   const operaNewSceneListSubtitle = document.createElement("h5");

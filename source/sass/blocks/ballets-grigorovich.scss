@@ -182,6 +182,16 @@
       .ballets-grigorovich__list-item:first-child {
         margin-left: 10px;
       }
+      .ballets-grigorovich__list-item:last-child {
+        margin-right: 10px;
+      }
+      .ballets-grigorovich__list-item._touch-active {
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        min-width: 80%;
+        height: 300px;
+      }
       .ballets-grigorovich__list-item._active {
         top: 0;
         opacity: 1;

@@ -9,7 +9,7 @@ var spectaclePageSwiper2 = new Swiper(".spectaclePageSwiper2", {
   slidesPerView: 2,
   loop: true,
   centeredSlides: true,
-  speed: 100,
+  speed: 300,
   thumbs: {
     swiper: spectaclePageSwiper,
   },
@@ -31,7 +31,7 @@ if (window.matchMedia("(min-width: 1920px)").matches) {
     slidesPerView: 2.4,
     loop: true,
     centeredSlides: true,
-    speed: 100,
+    speed: 300,
     thumbs: {
       swiper: spectaclePageSwiper,
     },
@@ -52,7 +52,7 @@ if (window.matchMedia("(max-width: 1600px)").matches) {
     slidesPerView: 2,
     loop: true,
     centeredSlides: true,
-    speed: 100,
+    speed: 300,
     thumbs: {
       swiper: spectaclePageSwiper,
     },
@@ -73,7 +73,7 @@ if (window.matchMedia("(max-width: 1400px)").matches) {
     slidesPerView: 1.8,
     loop: true,
     centeredSlides: true,
-    speed: 100,
+    speed: 300,
     thumbs: {
       swiper: spectaclePageSwiper,
     },
@@ -93,7 +93,7 @@ if (window.matchMedia("(max-width: 1200px)").matches) {
     slidesPerView: 1.6,
     loop: true,
     centeredSlides: true,
-    speed: 100,
+    speed: 300,
     thumbs: {
       swiper: spectaclePageSwiper,
     },
@@ -119,7 +119,7 @@ if (window.matchMedia("(max-width: 1024px)").matches) {
     slidesPerView: 1.4,
     loop: true,
     centeredSlides: true,
-    speed: 100,
+    speed: 300,
     thumbs: {
       swiper: spectaclePageSwiper,
     },
@@ -146,7 +146,7 @@ if (window.matchMedia("(max-width: 621px)").matches) {
     slidesPerView: 1.2,
     loop: true,
     centeredSlides: true,
-    speed: 100,
+    speed: 300,
     thumbs: {
       swiper: spectaclePageSwiper,
     },

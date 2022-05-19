@@ -64,6 +64,7 @@ contemporaryProductionsData.forEach((elem) => {
   contemporaryProductionsListItem.classList.add(
     "contemporary-productions__list-item"
   );
+  contemporaryProductionsListItem.classList.add("_touch");
   contemporaryProductionsListItem.classList.add("_anim-items");
   contemporaryProductionsListItem.classList.add("_anim-no-hide");
   const contemporaryProductionsListTitle = document.createElement("h4");

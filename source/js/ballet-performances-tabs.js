@@ -129,6 +129,7 @@ historicalData.forEach((elem) => {
   historicalSceneListItem.classList.add("historical-scene__list-item");
   historicalSceneListItem.classList.add("_anim-items");
   historicalSceneListItem.classList.add("_anim-no-hide");
+  historicalSceneListItem.classList.add("_touch");
   const historicalSceneListTitle = document.createElement("h4");
   historicalSceneListTitle.classList.add("historical-scene__list-title");
   const historicalSceneListSubtitle = document.createElement("h5");
@@ -153,6 +154,7 @@ historicalData.forEach((elem) => {
 newData.forEach((elem) => {
   const newSceneListItem = document.createElement("li");
   newSceneListItem.classList.add("new-scene__list-item");
+  newSceneListItem.classList.add("_touch");
   const newSceneListTitle = document.createElement("h4");
   newSceneListTitle.classList.add("new-scene__list-title");
   const newSceneListSubtitle = document.createElement("h5");

@@ -264,6 +264,17 @@
             }
             .historical-scene__list-item:first-child {
               margin-left: 10px;
+              margin-right: 10px;
+            }
+            .historical-scene__list-item:last-child {
+              margin-right: 10px;
+            }
+            .historical-scene__list-item._touch-active {
+              margin-top: 10px;
+              margin-left: 25px;
+              margin-bottom: 10px;
+              min-width: 80%;
+              height: 300px;
             }
             .historical-scene__list-item._active {
             }
@@ -288,6 +299,16 @@
             }
             .new-scene__list-item:first-child {
               margin-left: 10px;
+            }
+            .new-scene__list-item:last-child {
+              margin-right: 10px;
+            }
+            .new-scene__list-item._touch-active {
+              margin-top: 10px;
+              margin-left: 25px;
+              margin-bottom: 10px;
+              min-width: 80%;
+              height: 300px;
             }
           }
         }

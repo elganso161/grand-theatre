@@ -64,6 +64,7 @@ balletsGrigorovichData.forEach((elem) => {
   balletsGrigorovichListItem.classList.add("ballets-grigorovich__list-item");
   balletsGrigorovichListItem.classList.add("_anim-items");
   balletsGrigorovichListItem.classList.add("_anim-no-hide");
+  balletsGrigorovichListItem.classList.add("_touch");
   const balletsGrigorovichListTitle = document.createElement("h4");
   balletsGrigorovichListTitle.classList.add("ballets-grigorovich__list-title");
   const balletsGrigorovichListText = document.createElement("p");

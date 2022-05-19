@@ -64,6 +64,7 @@ foreignProductionsData.forEach((elem) => {
   foreignProductionsListItem.classList.add("foreign-productions__list-item");
   foreignProductionsListItem.classList.add("_anim-items");
   foreignProductionsListItem.classList.add("_anim-no-hide");
+  foreignProductionsListItem.classList.add("_touch");
   const foreignProductionsListTitle = document.createElement("h4");
   foreignProductionsListTitle.classList.add("foreign-productions__list-title");
   const foreignProductionsListLink = document.createElement("a");

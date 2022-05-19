@@ -134,6 +134,7 @@ bestsellersBaletData.forEach((elem) => {
   bestsellersBaletListItem.classList.add("bestsellers-balet__list-item");
   bestsellersBaletListItem.classList.add("_anim-items");
   bestsellersBaletListItem.classList.add("_anim-no-hide");
+  bestsellersBaletListItem.classList.add("_touch");
   const bestsellersBaletListTitle = document.createElement("h4");
   bestsellersBaletListTitle.classList.add("bestsellers-balet__list-title");
   const bestsellersBaletListSubtitle = document.createElement("h5");
@@ -160,6 +161,7 @@ bestsellersBaletData.forEach((elem) => {
 bestsellersOperaData.forEach((elem) => {
   const bestsellersOperaListItem = document.createElement("li");
   bestsellersOperaListItem.classList.add("bestsellers-opera__list-item");
+  bestsellersOperaListItem.classList.add("_touch");
   const bestsellersOperaListTitle = document.createElement("h4");
   bestsellersOperaListTitle.classList.add("bestsellers-opera__list-title");
   const bestsellersOperaListSubtitle = document.createElement("h5");

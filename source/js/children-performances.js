@@ -66,6 +66,7 @@ childrenPerformancesData.forEach((elem) => {
   );
   childrenPerformancesListItem.classList.add("_anim-items");
   childrenPerformancesListItem.classList.add("_anim-no-hide");
+  childrenPerformancesListItem.classList.add("_touch");
   const childrenPerformancesListTitle = document.createElement("h4");
   childrenPerformancesListTitle.classList.add(
     "children-performances__list-title"
