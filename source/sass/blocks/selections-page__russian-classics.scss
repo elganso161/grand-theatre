@@ -403,6 +403,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .russian-classics-mussorgsky__list-item {
+              top: 0;
               min-width: 85%;
               margin: 0 auto;
               margin-bottom: 10px;
@@ -415,7 +416,7 @@
               }
             }
             .russian-classics-mussorgsky__list-item:first-child {
-               margin-left: 10px;
+              margin-left: 10px;
             }
             .russian-classics-mussorgsky__list-item._active {
             }
@@ -426,6 +427,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .russian-classics-prokofiev__list-item {
+              top: 0;
               min-width: 85%;
               margin: 0 auto;
               margin-bottom: 10px;
@@ -438,7 +440,7 @@
               }
             }
             .russian-classics-prokofiev__list-item:first-child {
-               margin-left: 10px;
+              margin-left: 10px;
             }
             .russian-classics-prokofiev__list-item._active {
             }
@@ -449,6 +451,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .russian-classics-rimsky-korsakov__list-item {
+              top: 0;
               min-width: 85%;
               margin: 0 auto;
               margin-bottom: 10px;
@@ -461,7 +464,7 @@
               }
             }
             .russian-classics-rimsky-korsakov__list-item:first-child {
-               margin-left: 10px;
+              margin-left: 10px;
             }
             .russian-classics-rimsky-korsakov__list-item._active {
             }
@@ -472,6 +475,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .russian-classics-tchaikovsky__list-item {
+              top: 0;
               min-width: 85%;
               margin: 0 auto;
               margin-bottom: 10px;
@@ -484,7 +488,7 @@
               }
             }
             .russian-classics-tchaikovsky__list-item:first-child {
-               margin-left: 10px;
+              margin-left: 10px;
             }
             .russian-classics-tchaikovsky__list-item._active {
             }
@@ -495,6 +499,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .russian-classics-shostakovich__list-item {
+              top: 0;
               min-width: 85%;
               margin: 0 auto;
               margin-bottom: 10px;
@@ -507,7 +512,7 @@
               }
             }
             .russian-classics-shostakovich__list-item:first-child {
-               margin-left: 10px;
+              margin-left: 10px;
             }
             .russian-classics-shostakovich__list-item._active {
             }

@@ -16,7 +16,6 @@ tabsBtn.forEach((elem) => {
 
     currentBtn.classList.add("active");
     currentTub.classList.add("active");
-
   });
 });
 

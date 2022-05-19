@@ -248,6 +248,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .bestsellers-balet__list-item {
+              top: 0;
               min-width: 85%;
               margin: 0 auto;
               margin-bottom: 10px;
@@ -260,7 +261,7 @@
               }
             }
             .bestsellers-balet__list-item:first-child {
-               margin-left: 10px;
+              margin-left: 10px;
             }
             .bestsellers-balet__list-item._active {
             }
@@ -271,6 +272,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .bestsellers-opera__list-item {
+              top: 0;
               min-width: 85%;
               margin: 0 auto;
               margin-bottom: 10px;
@@ -283,7 +285,7 @@
               }
             }
             .bestsellers-opera__list-item:first-child {
-               margin-left: 10px;
+              margin-left: 10px;
             }
           }
         }

@@ -112,7 +112,6 @@
               color: #e3cb85;
             }
 
-            position: relative;
             top: 100px;
             opacity: 0;
             transition: 1s;
@@ -255,6 +254,7 @@
               margin: 0 auto;
               margin-bottom: 10px;
               margin-left: 20px;
+              top: 0;
               .historical-scene__list-title {
               }
               .historical-scene__list-subtitle {
@@ -267,6 +267,9 @@
             }
             .historical-scene__list-item._active {
             }
+            // .historical-scene__list-item._touch-active {
+            //   min-width: 75%;
+            // }
           }
           // new
           .new-scene__list {
@@ -274,6 +277,7 @@
             overflow: auto;
             flex-wrap: nowrap;
             .new-scene__list-item {
+              top: 0;
               min-width: 85%;
               margin: 0 auto;
               margin-bottom: 10px;
