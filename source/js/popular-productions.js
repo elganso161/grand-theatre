@@ -36,6 +36,7 @@ popularProductionsData.forEach((elem) => {
   );
   popularProductionsItem.classList.add("_anim-items");
   popularProductionsItem.classList.add("_anim-no-hide");
+  popularProductionsItem.classList.add("_touch");
   const popularProductionsLink = document.createElement("a");
   popularProductionsLink.classList.add(
     "repertoire-page__popular-productions-list-item-link"

@@ -116,10 +116,9 @@
       }
     }
     .repertoire-page__popular-productions-list {
-
       .repertoire-page__popular-productions-list-item {
         width: 100%;
-        margin:  0 auto;
+        margin: 0 auto;
       }
     }
   }
@@ -136,6 +135,14 @@
       img {
         display: none;
       }
+    }
+  }
+
+  .repertoire-page__popular-productions-list {
+    .repertoire-page__popular-productions-list-item._touch-active {
+      width: 97%;
+      height: 390px;
+      margin-bottom: 10px;
     }
   }
 }
